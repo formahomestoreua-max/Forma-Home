@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 19,
+    "slug": "armchair-luna-19",
+    "name": "Крісло-гойдалка LUNA · світло-сірий",
+    "category": "Крісла",
+    "kind": "armchair",
+    "price": 11920,
+    "oldPrice": null,
+    "material": "Екошкіра",
+    "color": "Світло-сірий",
+    "dimensions": "106 × 78 × 103 см",
+    "width": 106,
+    "depth": 78,
+    "height": 103,
+    "stock": 9,
+    "rating": 4.9,
+    "reviews": 73,
+    "sku": "FH-0019",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0019-1.webp",
+      "assets/photos/fh-0019-2.webp",
+      "assets/photos/fh-0019-3.webp"
+    ],
+    "description": "Крісло-гойдалка серії LUNA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «світло-сірий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "5 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 34,
+    "slug": "bed-sense-34",
+    "name": "Ліжко з м’яким узголів’ям SENSE · графіт",
+    "category": "Ліжка",
+    "kind": "bed",
+    "price": 18940,
+    "oldPrice": null,
+    "material": "МДФ",
+    "color": "Графіт",
+    "dimensions": "172 × 205 × 109 см",
+    "width": 172,
+    "depth": 205,
+    "height": 109,
+    "stock": 30,
+    "rating": 4.5,
+    "reviews": 106,
+    "sku": "FH-0034",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0034-1.webp",
+      "assets/photos/fh-0034-2.webp",
+      "assets/photos/fh-0034-3.webp"
+    ],
+    "description": "Ліжко з м’яким узголів’ям серії SENSE поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «графіт» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "21 кг"
+  },
+  "collectionIds": []
+}

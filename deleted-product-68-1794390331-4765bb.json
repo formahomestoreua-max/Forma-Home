@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 68,
+    "slug": "wardrobe-nova-68",
+    "name": "Шафа з дзеркалом NOVA · теракотовий",
+    "category": "Шафи",
+    "kind": "wardrobe",
+    "price": 26320,
+    "oldPrice": null,
+    "material": "Дерево",
+    "color": "Теракотовий",
+    "dimensions": "216 × 67 × 232 см",
+    "width": 216,
+    "depth": 67,
+    "height": 232,
+    "stock": 16,
+    "rating": 4.3,
+    "reviews": 84,
+    "sku": "FH-0068",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0068-1.webp",
+      "assets/photos/fh-0068-2.webp",
+      "assets/photos/fh-0068-3.webp"
+    ],
+    "description": "Шафа з дзеркалом серії NOVA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «теракотовий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "19 кг"
+  },
+  "collectionIds": []
+}

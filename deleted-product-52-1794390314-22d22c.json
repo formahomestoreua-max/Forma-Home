@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 52,
+    "slug": "chair-forma-52",
+    "name": "Стілець скандинавський FORMA · димчастий",
+    "category": "Стільці",
+    "kind": "chair",
+    "price": 6060,
+    "oldPrice": null,
+    "material": "Пластик",
+    "color": "Димчастий",
+    "dimensions": "84 × 52 × 98 см",
+    "width": 84,
+    "depth": 52,
+    "height": 98,
+    "stock": 26,
+    "rating": 4.6,
+    "reviews": 40,
+    "sku": "FH-0052",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0052-1.webp",
+      "assets/photos/fh-0052-2.webp",
+      "assets/photos/fh-0052-3.webp"
+    ],
+    "description": "Стілець скандинавський серії FORMA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «димчастий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": []
+}

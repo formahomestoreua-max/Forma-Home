@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 51,
+    "slug": "chair-soft-51",
+    "name": "Стілець з м’яким сидінням SOFT · білий",
+    "category": "Стільці",
+    "kind": "chair",
+    "price": 6140,
+    "oldPrice": null,
+    "material": "Велюр",
+    "color": "Білий",
+    "dimensions": "72 × 62 × 94 см",
+    "width": 72,
+    "depth": 62,
+    "height": 94,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0051",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0051-1.webp",
+      "assets/photos/fh-0051-2.webp",
+      "assets/photos/fh-0051-3.webp"
+    ],
+    "description": "Стілець з м’яким сидінням серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «білий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": []
+}

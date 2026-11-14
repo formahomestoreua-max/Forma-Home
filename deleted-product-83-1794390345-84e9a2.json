@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 83,
+    "slug": "dresser-bloom-83",
+    "name": "Тумба для зберігання BLOOM · білий",
+    "category": "Комоди",
+    "kind": "dresser",
+    "price": 11620,
+    "oldPrice": null,
+    "material": "ЛДСП",
+    "color": "Білий",
+    "dimensions": "134 × 50 × 100 см",
+    "width": 134,
+    "depth": 50,
+    "height": 100,
+    "stock": 37,
+    "rating": 4.6,
+    "reviews": 117,
+    "sku": "FH-0083",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0083-1.webp",
+      "assets/photos/fh-0083-2.webp",
+      "assets/photos/fh-0083-3.webp"
+    ],
+    "description": "Тумба для зберігання серії BLOOM поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «білий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "4 кг"
+  },
+  "collectionIds": []
+}

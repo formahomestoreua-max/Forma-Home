@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 33,
+    "slug": "bed-arco-33",
+    "name": "Ліжко двоспальне ARCO · молочний",
+    "category": "Ліжка",
+    "kind": "bed",
+    "price": 9530,
+    "oldPrice": 12770,
+    "material": "Масив дерева",
+    "color": "Молочний",
+    "dimensions": "160 × 215 × 105 см",
+    "width": 160,
+    "depth": 215,
+    "height": 105,
+    "stock": 23,
+    "rating": 4.4,
+    "reviews": 95,
+    "sku": "FH-0033",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0033-1.webp",
+      "assets/photos/fh-0033-2.webp",
+      "assets/photos/fh-0033-3.webp"
+    ],
+    "description": "Ліжко двоспальне серії ARCO поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «молочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "20 кг"
+  },
+  "collectionIds": [
+    "sale"
+  ]
+}

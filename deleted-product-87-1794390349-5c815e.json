@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 87,
+    "slug": "lamp-soft-87",
+    "name": "Підвісний світильник SOFT · оливковий",
+    "category": "Освітлення",
+    "kind": "lamp",
+    "price": 4440,
+    "oldPrice": null,
+    "material": "Текстиль",
+    "color": "Оливковий",
+    "dimensions": "59 × 45 × 158 см",
+    "width": 59,
+    "depth": 45,
+    "height": 158,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0087",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0087-1.webp",
+      "assets/photos/fh-0087-2.webp",
+      "assets/photos/fh-0087-3.webp"
+    ],
+    "description": "Підвісний світильник серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «оливковий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

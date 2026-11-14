@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 57,
+    "slug": "chair-arco-57",
+    "name": "Обідній стілець ARCO · оливковий",
+    "category": "Стільці",
+    "kind": "chair",
+    "price": 1560,
+    "oldPrice": 2090,
+    "material": "Бук",
+    "color": "Оливковий",
+    "dimensions": "48 × 62 × 86 см",
+    "width": 48,
+    "depth": 62,
+    "height": 86,
+    "stock": 23,
+    "rating": 4.4,
+    "reviews": 95,
+    "sku": "FH-0057",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0057-1.webp",
+      "assets/photos/fh-0057-2.webp",
+      "assets/photos/fh-0057-3.webp"
+    ],
+    "description": "Обідній стілець серії ARCO поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «оливковий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "1 кг"
+  },
+  "collectionIds": [
+    "sale"
+  ]
+}

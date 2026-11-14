@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 15,
+    "slug": "armchair-soft-15",
+    "name": "Крісло-гойдалка SOFT · оливковий",
+    "category": "Крісла",
+    "kind": "armchair",
+    "price": 6800,
+    "oldPrice": null,
+    "material": "Екошкіра",
+    "color": "Оливковий",
+    "dimensions": "106 × 88 × 103 см",
+    "width": 106,
+    "depth": 88,
+    "height": 103,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0015",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0015-1.webp",
+      "assets/photos/fh-0015-2.webp",
+      "assets/photos/fh-0015-3.webp"
+    ],
+    "description": "Крісло-гойдалка серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «оливковий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "5 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

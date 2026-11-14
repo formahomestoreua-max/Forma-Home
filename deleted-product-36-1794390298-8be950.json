@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 36,
+    "slug": "bed-loft-36",
+    "name": "Ліжко односпальне LOFT · горіх",
+    "category": "Ліжка",
+    "kind": "bed",
+    "price": 18250,
+    "oldPrice": null,
+    "material": "ЛДСП",
+    "color": "Горіх",
+    "dimensions": "196 × 215 × 117 см",
+    "width": 196,
+    "depth": 215,
+    "height": 117,
+    "stock": 6,
+    "rating": 4.7,
+    "reviews": 128,
+    "sku": "FH-0036",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0036-1.webp",
+      "assets/photos/fh-0036-2.webp",
+      "assets/photos/fh-0036-3.webp"
+    ],
+    "description": "Ліжко односпальне серії LOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «горіх» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "27 кг"
+  },
+  "collectionIds": []
+}

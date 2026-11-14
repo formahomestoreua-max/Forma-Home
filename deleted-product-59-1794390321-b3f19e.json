@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 59,
+    "slug": "chair-bloom-59",
+    "name": "Стілець з м’яким сидінням BLOOM · пісочний",
+    "category": "Стільці",
+    "kind": "chair",
+    "price": 6410,
+    "oldPrice": null,
+    "material": "Велюр",
+    "color": "Пісочний",
+    "dimensions": "72 × 57 × 94 см",
+    "width": 72,
+    "depth": 57,
+    "height": 94,
+    "stock": 37,
+    "rating": 4.6,
+    "reviews": 117,
+    "sku": "FH-0059",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0059-1.webp",
+      "assets/photos/fh-0059-2.webp",
+      "assets/photos/fh-0059-3.webp"
+    ],
+    "description": "Стілець з м’яким сидінням серії BLOOM поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «пісочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": []
+}

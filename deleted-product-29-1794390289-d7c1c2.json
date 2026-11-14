@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 29,
+    "slug": "bed-milo-29",
+    "name": "Ліжко двоспальне MILO · світло-сірий",
+    "category": "Ліжка",
+    "kind": "bed",
+    "price": 11580,
+    "oldPrice": 14590,
+    "material": "Масив дерева",
+    "color": "Світло-сірий",
+    "dimensions": "160 × 210 × 105 см",
+    "width": 160,
+    "depth": 210,
+    "height": 105,
+    "stock": 33,
+    "rating": 4.7,
+    "reviews": 51,
+    "sku": "FH-0029",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0029-1.webp",
+      "assets/photos/fh-0029-2.webp",
+      "assets/photos/fh-0029-3.webp"
+    ],
+    "description": "Ліжко двоспальне серії MILO поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «світло-сірий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "20 кг"
+  },
+  "collectionIds": [
+    "sale"
+  ]
+}

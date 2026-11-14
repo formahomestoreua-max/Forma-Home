@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 64,
+    "slug": "wardrobe-forma-64",
+    "name": "Шафа з дзеркалом FORMA · графіт",
+    "category": "Шафи",
+    "kind": "wardrobe",
+    "price": 8800,
+    "oldPrice": null,
+    "material": "Дерево",
+    "color": "Графіт",
+    "dimensions": "216 × 62 × 232 см",
+    "width": 216,
+    "depth": 62,
+    "height": 232,
+    "stock": 26,
+    "rating": 4.6,
+    "reviews": 40,
+    "sku": "FH-0064",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0064-1.webp",
+      "assets/photos/fh-0064-2.webp",
+      "assets/photos/fh-0064-3.webp"
+    ],
+    "description": "Шафа з дзеркалом серії FORMA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «графіт» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "17 кг"
+  },
+  "collectionIds": []
+}
