@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 27,
+    "slug": "bed-soft-27",
+    "name": "Ліжко з підйомним механізмом SOFT · пісочний",
+    "category": "Ліжка",
+    "kind": "bed",
+    "price": 17640,
+    "oldPrice": null,
+    "material": "Велюр",
+    "color": "Пісочний",
+    "dimensions": "184 × 215 × 113 см",
+    "width": 184,
+    "depth": 215,
+    "height": 113,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0027",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0027-1.webp",
+      "assets/photos/fh-0027-2.webp",
+      "assets/photos/fh-0027-3.webp"
+    ],
+    "description": "Ліжко з підйомним механізмом серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «пісочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "25 кг"
+  },
+  "collectionIds": []
+}

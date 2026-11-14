@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 164,
+    "slug": "basin-nova-164",
+    "name": "Раковина NOVA · білий матовий",
+    "category": "Раковини для ванної",
+    "kind": "basin",
+    "price": 5300,
+    "oldPrice": null,
+    "material": "Санітарна кераміка",
+    "color": "Білий матовий",
+    "dimensions": "80 × 50 × 18 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 8,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0164",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0164-1.svg",
+      "assets/photos/fh-0164-2.svg",
+      "assets/photos/fh-0164-3.svg"
+    ],
+    "description": "Раковина серії NOVA для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 168,
+    "slug": "rug-alto-168",
+    "name": "Килим ALTO · графіт",
+    "category": "Килими",
+    "kind": "rug",
+    "price": 2150,
+    "oldPrice": null,
+    "material": "Поліестер",
+    "color": "Графіт",
+    "dimensions": "160 × 220 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 10,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0168",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0168-1.svg",
+      "assets/photos/fh-0168-2.svg",
+      "assets/photos/fh-0168-3.svg"
+    ],
+    "description": "Килим серії ALTO для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

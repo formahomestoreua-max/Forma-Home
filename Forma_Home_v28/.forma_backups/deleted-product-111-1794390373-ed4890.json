@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 111,
+    "slug": "textile-soft-111",
+    "name": "Килим для вітальні SOFT · світло-сірий",
+    "category": "Текстиль",
+    "kind": "textile",
+    "price": 3980,
+    "oldPrice": null,
+    "material": "Поліестер",
+    "color": "Світло-сірий",
+    "dimensions": "174 × 110 × 10 см",
+    "width": 174,
+    "depth": 110,
+    "height": 10,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0111",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0111-1.webp",
+      "assets/photos/fh-0111-2.webp",
+      "assets/photos/fh-0111-3.webp"
+    ],
+    "description": "Килим для вітальні серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «світло-сірий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

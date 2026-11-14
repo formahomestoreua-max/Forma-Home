@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 166,
+    "slug": "rug-mira-166",
+    "name": "Килим MIRA · оливковий",
+    "category": "Килими",
+    "kind": "rug",
+    "price": 2490,
+    "oldPrice": 2988,
+    "material": "Поліестер",
+    "color": "Оливковий",
+    "dimensions": "160 × 220 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 8,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0166",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0166-1.svg",
+      "assets/photos/fh-0166-2.svg",
+      "assets/photos/fh-0166-3.svg"
+    ],
+    "description": "Килим серії MIRA для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

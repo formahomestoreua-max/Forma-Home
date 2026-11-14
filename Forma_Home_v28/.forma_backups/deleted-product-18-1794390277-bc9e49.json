@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 18,
+    "slug": "armchair-terra-18",
+    "name": "Крісло-акцент TERRA · чорний",
+    "category": "Крісла",
+    "kind": "armchair",
+    "price": 6250,
+    "oldPrice": null,
+    "material": "Букле",
+    "color": "Чорний",
+    "dimensions": "94 × 88 × 99 см",
+    "width": 94,
+    "depth": 88,
+    "height": 99,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews": 62,
+    "sku": "FH-0018",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0018-1.webp",
+      "assets/photos/fh-0018-2.webp",
+      "assets/photos/fh-0018-3.webp"
+    ],
+    "description": "Крісло-акцент серії TERRA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «чорний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "5 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

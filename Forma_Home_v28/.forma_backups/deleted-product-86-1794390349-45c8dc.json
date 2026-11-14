@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 86,
+    "slug": "lamp-linea-86",
+    "name": "Настільна лампа LINEA · горіх",
+    "category": "Освітлення",
+    "kind": "lamp",
+    "price": 1610,
+    "oldPrice": null,
+    "material": "Скло",
+    "color": "Горіх",
+    "dimensions": "47 × 40 × 154 см",
+    "width": 47,
+    "depth": 40,
+    "height": 154,
+    "stock": 12,
+    "rating": 4.4,
+    "reviews": 18,
+    "sku": "FH-0086",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0086-1.webp",
+      "assets/photos/fh-0086-2.webp",
+      "assets/photos/fh-0086-3.webp"
+    ],
+    "description": "Настільна лампа серії LINEA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «горіх» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

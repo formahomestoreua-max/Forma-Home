@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 130,
+    "slug": "winter-130",
+    "name": "Свічка «Зимова казка» SENSE · ваніль",
+    "category": "Новорічний декор",
+    "kind": "winter",
+    "price": 1700,
+    "oldPrice": 2070.0,
+    "material": "Віск",
+    "color": "Ванільний",
+    "dimensions": "40 × 25 × 32 см",
+    "width": 40,
+    "depth": 25,
+    "height": 32,
+    "stock": 30,
+    "rating": 4.5,
+    "reviews": 106,
+    "sku": "FH-0130",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/winter-130-1.svg",
+      "assets/photos/winter-130-2.svg",
+      "assets/photos/winter-130-3.svg"
+    ],
+    "description": "Свічка «Зимова казка» SENSE · ваніль — святковий аксесуар для затишного зимового інтер’єру. Параметри, комплектацію та сумісність уточнюйте для обраної моделі.",
+    "warranty": "12 місяців",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": [
+    "winter"
+  ]
+}

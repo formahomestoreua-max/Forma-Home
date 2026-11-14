@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 79,
+    "slug": "dresser-luna-79",
+    "name": "Тумба для зберігання LUNA · пісочний",
+    "category": "Комоди",
+    "kind": "dresser",
+    "price": 5170,
+    "oldPrice": null,
+    "material": "ЛДСП",
+    "color": "Пісочний",
+    "dimensions": "134 × 45 × 100 см",
+    "width": 134,
+    "depth": 45,
+    "height": 100,
+    "stock": 9,
+    "rating": 4.9,
+    "reviews": 73,
+    "sku": "FH-0079",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0079-1.webp",
+      "assets/photos/fh-0079-2.webp",
+      "assets/photos/fh-0079-3.webp"
+    ],
+    "description": "Тумба для зберігання серії LUNA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «пісочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "3 кг"
+  },
+  "collectionIds": []
+}

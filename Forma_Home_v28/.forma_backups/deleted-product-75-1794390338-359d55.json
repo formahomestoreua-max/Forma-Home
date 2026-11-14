@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 75,
+    "slug": "dresser-soft-75",
+    "name": "Тумба для зберігання SOFT · бежевий",
+    "category": "Комоди",
+    "kind": "dresser",
+    "price": 3660,
+    "oldPrice": null,
+    "material": "ЛДСП",
+    "color": "Бежевий",
+    "dimensions": "134 × 55 × 100 см",
+    "width": 134,
+    "depth": 55,
+    "height": 100,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0075",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0075-1.webp",
+      "assets/photos/fh-0075-2.webp",
+      "assets/photos/fh-0075-3.webp"
+    ],
+    "description": "Тумба для зберігання серії SOFT поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «бежевий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "4 кг"
+  },
+  "collectionIds": []
+}

@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 4,
+    "slug": "sofa-forma-4",
+    "name": "Диван-ліжко FORMA · горіх",
+    "category": "Дивани",
+    "kind": "sofa",
+    "price": 17010,
+    "oldPrice": null,
+    "material": "Шеніл",
+    "color": "Горіх",
+    "dimensions": "216 × 88 × 94 см",
+    "width": 216,
+    "depth": 88,
+    "height": 94,
+    "stock": 26,
+    "rating": 4.6,
+    "reviews": 40,
+    "sku": "FH-0004",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0004-1.webp",
+      "assets/photos/fh-0004-2.webp",
+      "assets/photos/fh-0004-3.webp"
+    ],
+    "description": "Диван-ліжко серії FORMA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «горіх» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "10 кг"
+  },
+  "collectionIds": [
+    "living"
+  ]
+}

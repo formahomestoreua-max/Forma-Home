@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 90,
+    "slug": "lamp-terra-90",
+    "name": "Настільна лампа TERRA · чорний",
+    "category": "Освітлення",
+    "kind": "lamp",
+    "price": 7260,
+    "oldPrice": null,
+    "material": "Скло",
+    "color": "Чорний",
+    "dimensions": "47 × 45 × 154 см",
+    "width": 47,
+    "depth": 45,
+    "height": 154,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews": 62,
+    "sku": "FH-0090",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0090-1.webp",
+      "assets/photos/fh-0090-2.webp",
+      "assets/photos/fh-0090-3.webp"
+    ],
+    "description": "Настільна лампа серії TERRA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «чорний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": []
+}

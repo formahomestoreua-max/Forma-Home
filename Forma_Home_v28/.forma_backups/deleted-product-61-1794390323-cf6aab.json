@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 61,
+    "slug": "wardrobe-nord-61",
+    "name": "Шафа-купе NORD · білий",
+    "category": "Шафи",
+    "kind": "wardrobe",
+    "price": 14970,
+    "oldPrice": 17660,
+    "material": "ЛДСП",
+    "color": "Білий",
+    "dimensions": "180 × 62 × 220 см",
+    "width": 180,
+    "depth": 62,
+    "height": 220,
+    "stock": 5,
+    "rating": 4.3,
+    "reviews": 7,
+    "sku": "FH-0061",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0061-1.webp",
+      "assets/photos/fh-0061-2.webp",
+      "assets/photos/fh-0061-3.webp"
+    ],
+    "description": "Шафа-купе серії NORD поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «білий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "14 кг"
+  },
+  "collectionIds": [
+    "sale"
+  ]
+}

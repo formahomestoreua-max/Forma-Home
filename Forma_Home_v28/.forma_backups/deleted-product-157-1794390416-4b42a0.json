@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 157,
+    "slug": "basin-lino-157",
+    "name": "Раковина LINO · білий матовий",
+    "category": "Раковини для ванної",
+    "kind": "basin",
+    "price": 2090,
+    "oldPrice": null,
+    "material": "Санітарна кераміка",
+    "color": "Білий матовий",
+    "dimensions": "80 × 50 × 18 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 7,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0157",
+    "featured": true,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0157-1.svg",
+      "assets/photos/fh-0157-2.svg",
+      "assets/photos/fh-0157-3.svg"
+    ],
+    "description": "Раковина серії LINO для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

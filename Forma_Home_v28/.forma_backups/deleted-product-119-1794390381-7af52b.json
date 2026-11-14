@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 119,
+    "slug": "textile-bloom-119",
+    "name": "Килим для вітальні BLOOM · оливковий",
+    "category": "Текстиль",
+    "kind": "textile",
+    "price": 3010,
+    "oldPrice": null,
+    "material": "Поліестер",
+    "color": "Оливковий",
+    "dimensions": "174 × 105 × 10 см",
+    "width": 174,
+    "depth": 105,
+    "height": 10,
+    "stock": 37,
+    "rating": 4.6,
+    "reviews": 117,
+    "sku": "FH-0119",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0119-1.webp",
+      "assets/photos/fh-0119-2.webp",
+      "assets/photos/fh-0119-3.webp"
+    ],
+    "description": "Килим для вітальні серії BLOOM поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «оливковий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

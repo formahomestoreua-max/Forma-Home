@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 110,
+    "slug": "textile-linea-110",
+    "name": "Комплект подушок LINEA · чорний",
+    "category": "Текстиль",
+    "kind": "textile",
+    "price": 6320,
+    "oldPrice": null,
+    "material": "Льон",
+    "color": "Чорний",
+    "dimensions": "162 × 105 × 6 см",
+    "width": 162,
+    "depth": 105,
+    "height": 6,
+    "stock": 12,
+    "rating": 4.4,
+    "reviews": 18,
+    "sku": "FH-0110",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0110-1.webp",
+      "assets/photos/fh-0110-2.webp",
+      "assets/photos/fh-0110-3.webp"
+    ],
+    "description": "Комплект подушок серії LINEA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «чорний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}
