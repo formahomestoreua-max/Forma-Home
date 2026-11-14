@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 123,
+    "slug": "winter-123",
+    "name": "Плед зимовий SOFT · молочний",
+    "category": "Зимовий текстиль",
+    "kind": "winter",
+    "price": 680,
+    "oldPrice": 830.0,
+    "material": "Фліс",
+    "color": "Молочний",
+    "dimensions": "52 × 35 × 36 см",
+    "width": 52,
+    "depth": 35,
+    "height": 36,
+    "stock": 19,
+    "rating": 4.5,
+    "reviews": 29,
+    "sku": "FH-0123",
+    "featured": true,
+    "new": true,
+    "images": [
+      "assets/photos/winter-123-1.svg",
+      "assets/photos/winter-123-2.svg",
+      "assets/photos/winter-123-3.svg"
+    ],
+    "description": "Плед зимовий SOFT · молочний — святковий аксесуар для затишного зимового інтер’єру. Параметри, комплектацію та сумісність уточнюйте для обраної моделі.",
+    "warranty": "12 місяців",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": [
+    "winter"
+  ]
+}

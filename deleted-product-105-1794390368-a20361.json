@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 105,
+    "slug": "decor-arco-105",
+    "name": "Ваза декоративна ARCO · молочний",
+    "category": "Декор",
+    "kind": "decor",
+    "price": 4800,
+    "oldPrice": 6430,
+    "material": "Кераміка",
+    "color": "Молочний",
+    "dimensions": "42 × 38 × 65 см",
+    "width": 42,
+    "depth": 38,
+    "height": 65,
+    "stock": 23,
+    "rating": 4.4,
+    "reviews": 95,
+    "sku": "FH-0105",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0105-1.webp",
+      "assets/photos/fh-0105-2.webp",
+      "assets/photos/fh-0105-3.webp"
+    ],
+    "description": "Ваза декоративна серії ARCO поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «молочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": [
+    "sale"
+  ]
+}

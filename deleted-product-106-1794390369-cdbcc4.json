@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 106,
+    "slug": "decor-sense-106",
+    "name": "Дзеркало настінне SENSE · графіт",
+    "category": "Декор",
+    "kind": "decor",
+    "price": 2540,
+    "oldPrice": null,
+    "material": "Скло",
+    "color": "Графіт",
+    "dimensions": "54 × 28 × 69 см",
+    "width": 54,
+    "depth": 28,
+    "height": 69,
+    "stock": 30,
+    "rating": 4.5,
+    "reviews": 106,
+    "sku": "FH-0106",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0106-1.webp",
+      "assets/photos/fh-0106-2.webp",
+      "assets/photos/fh-0106-3.webp"
+    ],
+    "description": "Дзеркало настінне серії SENSE поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «графіт» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

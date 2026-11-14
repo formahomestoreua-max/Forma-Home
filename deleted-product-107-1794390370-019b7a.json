@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 107,
+    "slug": "decor-bloom-107",
+    "name": "Настінний декор BLOOM · бежевий",
+    "category": "Декор",
+    "kind": "decor",
+    "price": 5180,
+    "oldPrice": null,
+    "material": "Метал",
+    "color": "Бежевий",
+    "dimensions": "66 × 33 × 73 см",
+    "width": 66,
+    "depth": 33,
+    "height": 73,
+    "stock": 37,
+    "rating": 4.6,
+    "reviews": 117,
+    "sku": "FH-0107",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0107-1.webp",
+      "assets/photos/fh-0107-2.webp",
+      "assets/photos/fh-0107-3.webp"
+    ],
+    "description": "Настінний декор серії BLOOM поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «бежевий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

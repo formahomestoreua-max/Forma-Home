@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 103,
+    "slug": "decor-luna-103",
+    "name": "Настінний декор LUNA · білий",
+    "category": "Декор",
+    "kind": "decor",
+    "price": 2410,
+    "oldPrice": null,
+    "material": "Метал",
+    "color": "Білий",
+    "dimensions": "66 × 28 × 73 см",
+    "width": 66,
+    "depth": 28,
+    "height": 73,
+    "stock": 9,
+    "rating": 4.9,
+    "reviews": 73,
+    "sku": "FH-0103",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0103-1.webp",
+      "assets/photos/fh-0103-2.webp",
+      "assets/photos/fh-0103-3.webp"
+    ],
+    "description": "Настінний декор серії LUNA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «білий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

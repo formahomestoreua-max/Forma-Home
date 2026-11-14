@@ -1,0 +1,35 @@
+{
+  "product": {
+    "id": 122,
+    "slug": "winter-122",
+    "name": "Ялинкова прикраса LINEA · шампань",
+    "category": "Новорічний декор",
+    "kind": "winter",
+    "price": 540,
+    "oldPrice": 650.0,
+    "material": "Скло",
+    "color": "Шампань",
+    "dimensions": "40 × 30 × 32 см",
+    "width": 40,
+    "depth": 30,
+    "height": 32,
+    "stock": 12,
+    "rating": 4.4,
+    "reviews": 18,
+    "sku": "FH-0122",
+    "featured": true,
+    "new": true,
+    "images": [
+      "assets/photos/winter-122-1.svg",
+      "assets/photos/winter-122-2.svg",
+      "assets/photos/winter-122-3.svg"
+    ],
+    "description": "Ялинкова прикраса LINEA · шампань — святковий аксесуар для затишного зимового інтер’єру. Параметри, комплектацію та сумісність уточнюйте для обраної моделі.",
+    "warranty": "12 місяців",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": [
+    "winter"
+  ]
+}

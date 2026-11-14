@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 172,
+    "slug": "rug-nova-172",
+    "name": "Килим NOVA · теплий сірий",
+    "category": "Килими",
+    "kind": "rug",
+    "price": 3990,
+    "oldPrice": null,
+    "material": "Поліестер",
+    "color": "Теплий сірий",
+    "dimensions": "160 × 220 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 8,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0172",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0172-1.svg",
+      "assets/photos/fh-0172-2.svg",
+      "assets/photos/fh-0172-3.svg"
+    ],
+    "description": "Килим серії NOVA для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

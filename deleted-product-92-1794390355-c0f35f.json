@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 92,
+    "slug": "lamp-nova-92",
+    "name": "Бра настінне NOVA · карамельний",
+    "category": "Освітлення",
+    "kind": "lamp",
+    "price": 1770,
+    "oldPrice": null,
+    "material": "Дерево",
+    "color": "Карамельний",
+    "dimensions": "71 × 40 × 162 см",
+    "width": 71,
+    "depth": 40,
+    "height": 162,
+    "stock": 16,
+    "rating": 4.3,
+    "reviews": 84,
+    "sku": "FH-0092",
+    "featured": true,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0092-1.webp",
+      "assets/photos/fh-0092-2.webp",
+      "assets/photos/fh-0092-3.webp"
+    ],
+    "description": "Бра настінне серії NOVA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «карамельний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "3 кг"
+  },
+  "collectionIds": []
+}

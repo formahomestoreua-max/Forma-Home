@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 155,
+    "slug": "faucet-vista-155",
+    "name": "Змішувач для кухні VISTA · хром",
+    "category": "Змішувачі",
+    "kind": "faucet",
+    "price": 3950,
+    "oldPrice": null,
+    "material": "Нержавіюча сталь",
+    "color": "Хром",
+    "dimensions": "За моделлю",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 7,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0155",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0155-1.svg",
+      "assets/photos/fh-0155-2.svg",
+      "assets/photos/fh-0155-3.svg"
+    ],
+    "description": "Змішувач для кухні серії VISTA для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

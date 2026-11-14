@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 114,
+    "slug": "textile-terra-114",
+    "name": "Комплект подушок TERRA · димчастий",
+    "category": "Текстиль",
+    "kind": "textile",
+    "price": 8480,
+    "oldPrice": null,
+    "material": "Льон",
+    "color": "Димчастий",
+    "dimensions": "162 × 110 × 6 см",
+    "width": 162,
+    "depth": 110,
+    "height": 6,
+    "stock": 40,
+    "rating": 4.8,
+    "reviews": 62,
+    "sku": "FH-0114",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0114-1.webp",
+      "assets/photos/fh-0114-2.webp",
+      "assets/photos/fh-0114-3.webp"
+    ],
+    "description": "Комплект подушок серії TERRA поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «димчастий» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

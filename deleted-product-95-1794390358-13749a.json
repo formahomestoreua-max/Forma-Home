@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 95,
+    "slug": "lamp-bloom-95",
+    "name": "Підвісний світильник BLOOM · молочний",
+    "category": "Освітлення",
+    "kind": "lamp",
+    "price": 4170,
+    "oldPrice": null,
+    "material": "Текстиль",
+    "color": "Молочний",
+    "dimensions": "59 × 40 × 158 см",
+    "width": 59,
+    "depth": 40,
+    "height": 158,
+    "stock": 37,
+    "rating": 4.6,
+    "reviews": 117,
+    "sku": "FH-0095",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0095-1.webp",
+      "assets/photos/fh-0095-2.webp",
+      "assets/photos/fh-0095-3.webp"
+    ],
+    "description": "Підвісний світильник серії BLOOM поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «молочний» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Самостійне складання за інструкцією",
+    "weight": "2 кг"
+  },
+  "collectionIds": []
+}

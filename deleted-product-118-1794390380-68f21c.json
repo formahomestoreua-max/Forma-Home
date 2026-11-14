@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 118,
+    "slug": "textile-sense-118",
+    "name": "Комплект подушок SENSE · горіх",
+    "category": "Текстиль",
+    "kind": "textile",
+    "price": 2890,
+    "oldPrice": null,
+    "material": "Льон",
+    "color": "Горіх",
+    "dimensions": "162 × 100 × 6 см",
+    "width": 162,
+    "depth": 100,
+    "height": 6,
+    "stock": 30,
+    "rating": 4.5,
+    "reviews": 106,
+    "sku": "FH-0118",
+    "featured": false,
+    "new": false,
+    "images": [
+      "assets/photos/fh-0118-1.webp",
+      "assets/photos/fh-0118-2.webp",
+      "assets/photos/fh-0118-3.webp"
+    ],
+    "description": "Комплект подушок серії SENSE поєднує сучасні форми, продумані пропорції та практичні матеріали. Відтінок «горіх» легко поєднати з різними інтер’єрами. Модель підійде для облаштування затишного та функціонального простору.",
+    "warranty": "24 місяці",
+    "assembly": "Не потребує складання",
+    "weight": "1 кг"
+  },
+  "collectionIds": []
+}

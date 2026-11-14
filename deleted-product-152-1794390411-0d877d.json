@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 152,
+    "slug": "faucet-alto-152",
+    "name": "Змішувач для кухні ALTO · хром",
+    "category": "Змішувачі",
+    "kind": "faucet",
+    "price": 2750,
+    "oldPrice": null,
+    "material": "Нержавіюча сталь",
+    "color": "Хром",
+    "dimensions": "За моделлю",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 10,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0152",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0152-1.svg",
+      "assets/photos/fh-0152-2.svg",
+      "assets/photos/fh-0152-3.svg"
+    ],
+    "description": "Змішувач для кухні серії ALTO для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}

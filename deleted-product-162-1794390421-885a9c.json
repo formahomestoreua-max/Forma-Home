@@ -1,0 +1,33 @@
+{
+  "product": {
+    "id": 162,
+    "slug": "basin-echo-162",
+    "name": "Раковина ECHO · білий матовий",
+    "category": "Раковини для ванної",
+    "kind": "basin",
+    "price": 3650,
+    "oldPrice": null,
+    "material": "Санітарна кераміка",
+    "color": "Білий матовий",
+    "dimensions": "80 × 50 × 18 см",
+    "width": 80,
+    "depth": 50,
+    "height": 18,
+    "weight": "Орієнтовно 8 кг",
+    "stock": 12,
+    "rating": 4.5,
+    "reviews": 0,
+    "sku": "FH-0162",
+    "featured": false,
+    "new": true,
+    "images": [
+      "assets/photos/fh-0162-1.svg",
+      "assets/photos/fh-0162-2.svg",
+      "assets/photos/fh-0162-3.svg"
+    ],
+    "description": "Раковина серії ECHO для облаштування затишного дому. Модель. Комплектацію, розміри, тип монтажу та сумісність потрібно уточнювати перед покупкою. При потребі можна залишити індивідуальний запит через розділ «Під замовлення». ",
+    "warranty": "Уточнюйте для обраної моделі",
+    "assembly": "Уточнюється для конкретної моделі"
+  },
+  "collectionIds": []
+}
