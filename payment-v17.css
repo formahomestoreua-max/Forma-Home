@@ -1,0 +1,27 @@
+/* Forma Home v17 — manual IBAN confirmation UX */
+.v17-bank-instructions{border:1px solid #d8c8b4;border-radius:22px;background:var(--card,#fff);padding:clamp(18px,2.5vw,32px);margin:26px 0;text-align:left;color:var(--text,#292b26)}
+.v17-bank-heading{display:flex;align-items:start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.v17-bank-heading h2{font-size:clamp(24px,3vw,34px);margin:8px 0 14px;line-height:1.16}
+.v17-process-badge{display:inline-flex;padding:8px 12px;border:1px solid #ab8758;border-radius:30px;background:#fff3df;color:#5d4527;font-size:12px;font-weight:800;white-space:nowrap}
+.v17-bank-instructions>p{line-height:1.65;max-width:680px}
+.v17-bank-instructions dl{margin:22px 0 0;display:grid;gap:0;border-top:1px solid var(--border,#e3dfd9)}
+.v17-bank-instructions dl>div{display:grid;grid-template-columns:minmax(140px,32%) 1fr;gap:15px;padding:15px 0;border-bottom:1px solid var(--border,#e3dfd9);align-items:center}
+.v17-bank-instructions dt{font-size:13px;color:var(--muted,#6c716b)}
+.v17-bank-instructions dd{margin:0;display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0;font-weight:650}
+.v17-bank-instructions dd span{overflow-wrap:anywhere}
+.v17-copy{border:1px solid #b7a48b;background:transparent;border-radius:9px;padding:8px 10px;color:inherit;font-size:12px;cursor:pointer;flex-shrink:0}
+.v17-copy:hover{background:#c2a87a22}
+.v17-payment-help{font-size:13px;color:var(--muted,#6c716b)}
+.v17-payment-verify{border:1px solid #cfb68e;border-radius:14px;padding:18px;background:#b28b4b12;margin:14px 0;display:grid;grid-template-columns:minmax(220px,1fr) minmax(180px,1fr);gap:14px;color:inherit}
+.v17-payment-verify p{margin:7px 0 0;line-height:1.5;font-size:13px}
+.v17-payment-verify label{display:flex;flex-direction:column;gap:7px;font-size:13px}
+.v17-payment-verify input[type=text],.v17-payment-verify input:not([type]){width:100%;min-width:0;padding:11px;border-radius:8px;border:1px solid #a18d75;background:var(--card,#fff);color:var(--text,#1a2620)}
+.v17-verified-check{grid-column:1/-1;display:flex!important;align-items:center!important;flex-direction:row!important;gap:10px!important}
+.v17-verified-check input{width:18px;height:18px;accent-color:#826343;flex:none}
+.v17-confirm-pay{grid-column:1/-1;justify-self:start;padding:12px 18px;border:0;border-radius:9px;background:#264c39;color:white;font-weight:750;cursor:pointer}
+.v17-confirm-pay:disabled{opacity:.6;cursor:wait}
+.v17-payment-status{padding:13px 16px;border-radius:12px;margin:14px 0;display:flex;gap:10px;flex-wrap:wrap;background:#e0eee4;color:#1d4930;align-items:center}
+.v17-payment-status span{font-size:13px}
+[data-theme=dark] .v17-payment-status,.dark .v17-payment-status{background:#183624;color:#b2e2c2}
+[data-theme=dark] .v17-process-badge,.dark .v17-process-badge{background:#493b27;color:#ffdfb0}
+@media(max-width:740px){.v17-bank-instructions dl>div{grid-template-columns:1fr;gap:6px}.v17-bank-instructions dd{align-items:flex-start}.v17-payment-verify{grid-template-columns:1fr}}

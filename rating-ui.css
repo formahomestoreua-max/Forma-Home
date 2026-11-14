@@ -1,0 +1,36 @@
+/* Forma Home star ratings: deliberately scoped to review forms. */
+.review-form .fh-review-stars{
+  display:block;min-width:0;margin:18px 0 20px;padding:0;border:0;
+  color:var(--ink,#f7f6f1);
+}
+.review-form .fh-review-stars legend{
+  font-size:14px;font-weight:700;line-height:1.5;color:inherit;margin:0 0 11px;padding:0;
+}
+.review-form .fh-review-stars-row{display:flex;flex-wrap:wrap;align-items:center;gap:14px;min-height:52px}
+.review-form .fh-star-picker{display:flex;align-items:center;gap:5px;max-width:100%;isolation:isolate}
+.review-form .fh-star-option{
+  position:relative;display:flex!important;align-items:center;justify-content:center;
+  width:48px;height:48px;margin:0!important;padding:0;border-radius:12px;
+  cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;
+  border:1px solid transparent;transition:background-color .18s ease,transform .18s ease;
+}
+.review-form .fh-star-option:hover{background:rgba(244,188,69,.11);transform:translateY(-1px)}
+.review-form .fh-star-option:focus-within{outline:2px solid #edb957;outline-offset:2px}
+.review-form .fh-star-option input[type="radio"]{
+  position:absolute!important;inset:0!important;width:100%!important;height:100%!important;
+  opacity:0!important;cursor:pointer;margin:0!important;padding:0!important;
+  appearance:none;border:0!important;
+}
+.review-form .fh-star-icon{font:normal 39px/1 system-ui,sans-serif;color:#909a95;pointer-events:none;transition:color .14s,filter .14s}
+.review-form .fh-star-option.is-lit .fh-star-icon{color:#f5ba3f;filter:drop-shadow(0 2px 3px rgba(209,138,20,.22))}
+.review-form .fh-star-caption{font-size:14px;font-weight:600;color:var(--muted,#899591);min-width:105px}
+.review-form .fh-star-hint{margin:8px 0 0;font-size:12px;line-height:1.5;color:var(--muted,#899591)}
+[data-theme="dark"] .review-form .fh-star-icon{color:#9da9a1}
+[data-theme="dark"] .review-form .fh-star-option.is-lit .fh-star-icon{color:#ffc954}
+@media(max-width:480px){.review-form .fh-star-option{width:43px;height:45px}.review-form .fh-star-icon{font-size:35px}.review-form .fh-review-stars-row{gap:9px}}
+@media(prefers-reduced-motion:reduce){.review-form .fh-star-option,.review-form .fh-star-icon{transition:none}}
+
+/* Five furniture-focused home categories, without the former bathroom tile. */
+.fh-category-tiles{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+@media(max-width:1180px){.fh-category-tiles{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:670px){.fh-category-tiles{grid-template-columns:repeat(2,minmax(0,1fr))!important}}

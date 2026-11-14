@@ -1,0 +1,66 @@
+/* Forma Home responsive admin: all sections remain usable on a phone/tablet. */
+.dashboard-body,.dashboard-main,.admin-layout,.admin-content,.editor-pane,.products-side{min-width:0}
+.dashboard-body{overflow-x:clip}
+.admin-layout{width:100%;max-width:100%}
+.dashboard-main{max-width:100%}
+.admin-content{width:100%;max-width:100%!important}
+.workspaces{min-width:0;max-width:100%}
+.workspaces>*{min-width:0}
+#editor,#editor form,.cms-editor{min-width:0;max-width:100%}
+.dashboard-body input,.dashboard-body select,.dashboard-body textarea{max-width:100%;min-width:0}
+.product-dialog{max-height:min(94dvh,1000px);overflow-y:auto;overscroll-behavior:contain}
+.dashboard-body .dialog-top{margin:0!important;padding:10px 0 18px!important;background:transparent!important}
+.new-product-form{min-width:0}
+.dialog-fields{min-width:0}
+.cms-product-row{min-width:0}
+.cms-product-row b{overflow-wrap:anywhere}
+@media(max-width:1200px){
+ .admin-layout{grid-template-columns:215px minmax(0,1fr)}
+ .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .workspaces{grid-template-columns:minmax(235px,280px) minmax(0,1fr);gap:13px}
+ .cms-layout{grid-template-columns:minmax(220px,260px) minmax(0,1fr)}
+}
+@media(max-width:850px){
+ .admin-layout{grid-template-columns:minmax(0,1fr)!important}
+ .dashboard-body .admin-sidebar{position:sticky!important;top:0!important;z-index:150!important;width:100%!important;max-width:100%;height:auto!important;min-height:73px;display:flex!important;flex-flow:row nowrap!important;justify-content:flex-start!important;align-items:center!important;gap:7px!important;overflow-x:auto!important;overflow-y:hidden!important;scrollbar-width:thin;padding:10px 12px!important}
+ .dashboard-body .admin-sidebar .admin-brand{display:inline-flex!important;flex:0 0 120px;margin:0 6px 0 0!important}
+ .dashboard-body .admin-sidebar .admin-brand img{max-width:110px!important;width:110px!important}
+ .dashboard-body .admin-sidebar .side-link.admin-section{display:flex!important;flex:0 0 auto!important;min-height:46px!important;padding:9px 12px!important;font-size:12px!important;white-space:nowrap!important}
+ .dashboard-body .admin-sidebar .side-link.admin-section span{display:inline!important}
+ .dashboard-body .admin-sidebar .side-caption,.dashboard-body .admin-sidebar .admin-nav-divider,.dashboard-body .admin-sidebar .side-link.muted-item,.dashboard-body .admin-sidebar .security-pill{display:none!important}
+ .dashboard-body .admin-sidebar .side-bottom{margin:0!important;padding:0!important;display:flex!important;flex-direction:row!important;flex:0 0 auto!important}
+ .dashboard-body .admin-sidebar .logout{padding:9px 11px!important;white-space:nowrap}
+ .dashboard-body .admin-top{height:auto!important;min-height:50px!important;padding:11px 16px!important}
+ .admin-content{padding:20px!important}
+ .workspaces,.cms-layout{grid-template-columns:minmax(0,1fr)!important}
+ .cms-list{position:static!important;max-height:260px!important;overflow-y:auto}
+ .stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .list-scroll{height:260px!important}
+ .editor-pane{width:100%}
+ .cms-fields{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .admin-title{align-items:flex-start;flex-wrap:wrap}
+}
+@media(max-width:550px){
+ .admin-content{padding:13px!important}
+ .admin-title h1,.cms-head h1{font-size:clamp(28px,7vw,38px)!important}
+ .stat-grid{gap:8px!important}
+ .stat{padding:14px!important;min-height:112px!important}
+ .stat b{font-size:28px!important}
+ .admin-content .admin-title{display:block}
+ .cms-fields,.dialog-fields{grid-template-columns:minmax(0,1fr)!important;gap:14px!important}
+ .cms-fields .wide{grid-column:auto!important}
+ .dashboard-body .new-product-form{padding:16px!important}
+ .dashboard-body .product-dialog{width:calc(100vw - 18px)!important;margin:9px!important;max-height:calc(100dvh - 18px)}
+ .dashboard-body .dialog-options{display:grid;grid-template-columns:1fr;gap:8px}
+ .dashboard-body .dialog-bottom{display:flex;flex-wrap:wrap;gap:8px}
+ .dashboard-body .dialog-bottom button{flex:1 1 130px}
+ .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .cms-list{max-height:220px!important}
+ .cms-editor{padding:17px!important}
+ .cms-actions,.cms-reply-form,.cms-head{flex-direction:column;align-items:stretch!important}
+ .cms-actions button,.cms-reply-form button{width:100%}
+ .cms-collection-bar{flex-direction:column;align-items:stretch}
+ .cms-collection-bar input{max-width:100%}
+ .cms-product-row{grid-template-columns:19px 48px minmax(0,1fr);gap:7px}
+ .cms-product-row img{width:48px;height:48px}
+}

@@ -1,0 +1,63 @@
+/* Forma Home Studio v23 — photo composition and cohesive pictogram system.
+   Intentionally isolated from commerce, orders and admin styles. */
+:root { --fh23-honey:#b58d68; --fh23-cream:#f3efe9; --fh23-photo-border:rgba(86,68,50,.12); }
+
+/* Product photo gallery: original v21 layout and image presentation restored. */
+/* Refined, matched line icons (brand champagne / copper rather than emoji glyphs). */
+.fh23-icon{width:24px;height:24px;flex:none;display:inline-block;vertical-align:middle}
+.fh-assurance>div>span.fh23-assurance-icon {
+  width:52px!important;height:52px!important;min-width:52px!important;
+  display:grid!important;place-items:center!important;
+  border:1px solid rgba(166,126,85,.27)!important;
+  border-radius:15px!important;background:linear-gradient(145deg,#fbf6ef,#f1e7db)!important;
+  color:#856245!important;font-size:unset!important;box-shadow:0 3px 12px rgba(50,35,21,.035);
+}
+.fh23-assurance-icon svg {width:25px;height:25px;stroke-width:1.55}
+.fh-assurance>div{gap:14px!important}
+.fh23-nav-grid{flex:0 0 auto;color:inherit}
+.fh23-theme-symbol,.fh23-header-heart{display:grid;place-items:center;line-height:1}
+.fh23-theme-symbol svg{width:22px;height:22px}
+.fh-header-tools .icon-btn{transition:color .18s,background .18s,border-color .18s,transform .18s!important}
+.fh-header-tools .icon-btn:hover{transform:translateY(-2px);color:#a07950!important}
+.product-detail .detail-panel .detail-note{gap:12px!important;align-items:center!important}
+.product-detail .detail-panel .detail-note svg{width:20px;height:20px;color:#b18b63;stroke-width:1.7;flex-shrink:0}
+
+/* Larger, accessible preview overlay for product photos. */
+body.fh23-modal-open{overflow:hidden!important}
+.fh23-lightbox { position:fixed;inset:0;z-index:5000;display:grid;place-items:center;padding:clamp(10px,2vw,28px) }
+.fh23-lightbox-backdrop{position:absolute;inset:0;background:rgba(18,19,18,.87);backdrop-filter:blur(9px);border:0;cursor:zoom-out}
+.fh23-lightbox-panel{position:relative;display:flex;flex-direction:column;width:min(1100px,96vw);max-height:95dvh;z-index:2;overflow:hidden;background:#191e1b;border:1px solid rgba(255,255,255,.22);border-radius:18px;box-shadow:0 24px 100px rgba(0,0,0,.4)}
+.fh23-lightbox-head{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 19px;color:#f9f5ef;font-size:14px;font-weight:650}
+.fh23-lightbox-head small{font-size:12px;font-weight:500;color:#c8b9a8;margin-left:14px}
+.fh23-lightbox-head button,.fh23-lightbox-body button{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.10);color:#fff;border-radius:50%;width:43px;height:43px;display:grid;place-items:center;flex:none;cursor:pointer}
+.fh23-lightbox-head button:hover,.fh23-lightbox-body button:hover:not(:disabled){background:rgba(255,255,255,.22)}
+.fh23-lightbox-head svg,.fh23-lightbox-body svg{width:22px;height:22px}
+.fh23-lightbox-body{display:flex;align-items:center;justify-content:center;gap:12px;padding:0 15px 20px;min-height:0;min-width:0}
+.fh23-lightbox-body img{max-width:calc(100% - 115px);width:auto;height:auto;max-height:calc(95dvh - 110px);min-height:0;object-fit:contain;box-shadow:0 8px 30px rgba(0,0,0,.2)}
+.fh23-lightbox-body button:disabled{opacity:.3;cursor:default}
+
+/* Preserve photo colors and comfort across both themes. */
+[data-theme="dark"] .fh-assurance>div>span.fh23-assurance-icon{background:linear-gradient(135deg,#4a3d32,#382f29)!important;color:#f0c391!important;border-color:#705943!important}
+[data-theme="dark"] .product-detail .fh23-gallery .thumb{background:#4a4640!important;border-color:#786755!important}
+[data-theme="dark"] .product-detail .fh23-gallery .thumb.active{border-color:#d6ac81!important}
+[data-theme="dark"] .product-detail .detail-panel .detail-note svg{color:#e5b788}
+
+@media(max-width:900px){
+  .fh-assurance>div>span.fh23-assurance-icon{width:45px!important;height:45px!important;min-width:45px!important}
+}
+@media(max-width:600px){
+  .product-detail .fh23-gallery-toolbar{flex-wrap:wrap;gap:7px;justify-content:space-between}
+  .product-detail .fh23-gallery .thumbnails{gap:9px!important;padding-top:12px!important}
+  .product-detail .fh23-gallery .thumb{flex-basis:72px!important;width:72px!important;min-width:72px!important;max-width:72px!important;height:73px!important}
+  .fh-assurance>div{gap:9px!important;padding:13px 9px!important}
+  .fh-assurance>div>span.fh23-assurance-icon{width:39px!important;min-width:39px!important;height:39px!important;border-radius:12px!important}
+  .fh23-assurance-icon svg{width:21px;height:21px}
+  .fh-assurance strong{font-size:11px!important}.fh-assurance small{font-size:10px!important}
+  .fh23-lightbox{padding:7px}
+  .fh23-lightbox-panel{width:100%;border-radius:12px}
+  .fh23-lightbox-head{padding:10px 12px;font-size:12px}
+  .fh23-lightbox-body{padding:0 5px 13px;gap:3px}
+  .fh23-lightbox-body button{width:34px;height:34px}
+  .fh23-lightbox-body img{max-width:calc(100% - 74px)}
+}
+@media(prefers-reduced-motion:reduce){.product-detail .detail-main-img::before,.product-detail .fh23-gallery-btn,.product-detail .fh23-gallery .thumb{transition:none!important}}

@@ -1,0 +1,16 @@
+/* Forma Home v13: multi-collection chooser in create/edit product workflows */
+.dashboard-body .fh-create-collections{margin:24px 0 12px;border:1px solid #dde2d8;background:#f7f8f4;padding:20px;border-radius:13px}
+.fh-create-collections-head{display:flex;flex-wrap:wrap;gap:6px;flex-direction:column;margin-bottom:13px}
+.fh-create-collections-head strong{font-size:16px;color:#233b31}
+.fh-create-collections-head span{font-size:12px;color:#596a62;line-height:1.5}
+.fh-collection-picklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%;color:#283b31}
+.fh-pick-collection{display:flex;align-items:center;gap:12px;border:1px solid #d8e1d9;background:#fff;border-radius:10px;padding:13px 14px;min-width:0;cursor:pointer;transition:border-color .15s,background .15s}
+.fh-pick-collection:hover,.fh-pick-collection:has(input:checked){border-color:#769d87;background:#edf4ed}
+.fh-pick-collection input{accent-color:#275342!important;width:19px;height:19px;flex-shrink:0}
+.fh-pick-collection span{display:flex;flex-direction:column;min-width:0;gap:3px}
+.fh-pick-collection strong{color:#1e382d;font-size:13px;line-height:1.25;font-weight:730}
+.fh-pick-collection small{color:#57685b;font-size:11px;line-height:1.4;font-weight:400}
+.fh-pick-edit{margin:0 0 26px}.fh-no-collections{grid-column:1/-1;color:#526b5c;padding:12px 0}
+@media(max-width:650px){.fh-collection-picklist{grid-template-columns:1fr}.dashboard-body .fh-create-collections{padding:14px}}
+
+.admin-confirmation-link{display:inline-flex;align-items:center;justify-content:center;min-height:39px;padding:8px 13px;border:1px solid #aeb9b6;border-radius:8px;color:inherit!important;font-size:13px;font-weight:700;text-decoration:none!important}.admin-confirmation-link:hover{border-color:#b1906e;background:rgba(171,140,104,.1)}

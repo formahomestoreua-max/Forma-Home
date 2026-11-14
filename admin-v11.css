@@ -1,0 +1,9 @@
+
+body.dashboard-body,body.dashboard-body input,body.dashboard-body button,body.dashboard-body textarea,body.dashboard-body select{font-family:'Segoe UI Variable Text','Segoe UI',Arial,sans-serif!important}
+.dashboard-body .admin-sidebar{background:#203a34!important;color:#fffaf1!important}
+.dashboard-body .admin-sidebar a,.dashboard-body .admin-sidebar button{color:#f0eadf!important;font-size:14px!important}
+.dashboard-body .admin-sidebar .active{background:#3b6156!important;color:#fff!important}
+.dashboard-body .admin-title h1{font-family:'Bahnschrift','Segoe UI',Arial,sans-serif!important;font-weight:750!important;color:#1c2a24!important}
+.dashboard-body .admin-form input,.dashboard-body .admin-form textarea,.dashboard-body .admin-form select,.dashboard-body .editor-form input,.dashboard-body .editor-form textarea,.dashboard-body .editor-form select{color:#1d2921!important;background:#fff!important;border:1px solid #bbc5bf!important;font-size:14px!important}
+.dashboard-body .muted,.dashboard-body small{color:#59685c!important}
+.dashboard-body button{min-height:38px}

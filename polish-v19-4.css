@@ -1,0 +1,138 @@
+/* Forma Home v19.4 — details editor, accessible color choices, readable order controls. */
+/* Admin product fields are all editable, with clear hierarchy. */
+#editor .fh-spec-help{margin:-4px 0 23px;padding:12px 15px;border-radius:12px;border:1px solid #d7e5dd;background:#f1f7f3;color:#2a5040;font-size:13px;line-height:1.6}
+#editForm .fields label{min-width:0}
+#editForm .fields input[type=number]{font-variant-numeric:tabular-nums}
+#editForm .fields input:focus-visible,#editForm .fields textarea:focus-visible{outline:2px solid #347c6a;outline-offset:2px}
+/* Custom, keyboard accessible native radio choices for product colors. */
+.fh20-color-picker .fh20-colors-grid{display:flex;flex-wrap:wrap;gap:9px;margin:2px 0;max-width:540px}
+.fh20-color-chip{cursor:pointer;display:block;position:relative;min-width:0;max-width:100%}
+.fh20-color-chip input[type=radio]{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.fh20-color-chip-body{display:flex;align-items:center;gap:9px;min-height:43px;max-width:100%;padding:8px 13px;background:#f8f7f2;color:#273831;border:1.5px solid #d9dfd9;border-radius:12px;font-size:13px;font-weight:650;line-height:1.3;transition:background .15s,border-color .15s,box-shadow .15s}
+.fh20-color-chip:hover .fh20-color-chip-body{background:#f0f2ec;border-color:#8ba79a}
+.fh20-color-chip input:checked + .fh20-color-chip-body{background:#e9f3ed;border:2px solid #2b6d54;box-shadow:0 0 0 2px #2b6d541b;padding:7.5px 12.5px}
+.fh20-color-chip input:focus-visible + .fh20-color-chip-body{outline:3px solid #c88f60;outline-offset:3px}
+.fh20-color-dot{width:22px;height:22px;flex:0 0 22px;background:var(--chip-color);border-radius:50%;border:1px solid #192e2230;box-shadow:0 1px 3px #192e2215}
+.fh20-color-plus{display:grid;place-items:center;width:22px;height:22px;flex:0 0 22px;border:1px dashed currentColor;border-radius:50%;font-size:18px;line-height:1}
+.fh20-color-picker .fh20-color-native{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.fh20-color-picker .fh20-custom-color-label{display:grid;gap:7px;color:#31513d;font-weight:700;font-size:13px}
+.fh20-color-picker .fh20-custom-color-label[hidden],.fh20-color-picker #productCustomColorInput[hidden]{display:none!important}
+.fh20-color-picker #productCustomColorInput{display:block;width:min(100%,440px);margin-top:1px;padding:12px 14px;font-size:16px;min-height:45px;color:#1f332a;background:#fff;border:1px solid #9ab2a5;border-radius:12px}
+.fh20-color-picker #productCustomColorInput:focus-visible{outline:2px solid #32765c;outline-offset:2px}
+[data-theme=dark] .fh20-color-chip-body,body.dark .fh20-color-chip-body{background:#28352f;color:#f2efe8;border-color:#657368}
+[data-theme=dark] .fh20-color-chip input:checked + .fh20-color-chip-body,body.dark .fh20-color-chip input:checked + .fh20-color-chip-body{background:#375644;border-color:#e6c297;color:#fff}
+[data-theme=dark] .fh20-color-chip:hover .fh20-color-chip-body,body.dark .fh20-color-chip:hover .fh20-color-chip-body{background:#354a3b}
+[data-theme=dark] .fh20-color-picker .fh20-custom-color-label,body.dark .fh20-color-picker .fh20-custom-color-label{color:#f2e5d4}
+/* Admin paid-confirmation is not a stretched/textless square. */
+.order-manage-form .fh20-paid-confirm{grid-column:1/-1!important;display:flex!important;flex-flow:row nowrap!important;align-items:center!important;gap:13px!important;max-width:none!important;width:100%!important;min-height:66px!important;padding:14px 16px!important;border:1px solid #cbdcd3!important;border-radius:13px!important;background:#f0f7f3!important;color:#173d2e!important;cursor:pointer!important;line-height:1.5!important;box-sizing:border-box!important}
+.order-manage-form .fh20-paid-confirm input[type=checkbox]{position:static!important;display:block!important;flex:0 0 22px!important;appearance:auto!important;width:22px!important;height:22px!important;min-width:22px!important;min-height:22px!important;padding:0!important;margin:0!important;border:1px solid #759c87!important;accent-color:#25664a!important;opacity:1!important;box-shadow:none!important}
+.order-manage-form .fh20-paid-confirm span{min-width:0!important;display:grid!important;gap:3px!important;color:#173d2e!important}
+.order-manage-form .fh20-paid-confirm strong{color:#173d2e!important;font-size:14px!important;font-weight:750!important}
+.order-manage-form .fh20-paid-confirm small{color:#46675a!important;font-size:12px!important;line-height:1.55!important;font-weight:400!important}
+.order-manage-form .fh20-paid-confirm:has(input:checked){border-color:#3b8a64!important;background:#e2f3e8!important}
+.order-manage-form .fh20-paid-confirm:focus-within{outline:3px solid #9ad8ba;outline-offset:2px}
+/* Readable selects and buttons for admin. */
+.order-manage-form select,.order-manage-form input[type=date],.order-manage-form input[name=managerNote]{color:#173d2e!important;background:#fff!important;border:1px solid #c3d1ca!important;border-radius:11px!important;min-height:45px!important;padding:11px 13px!important;font-size:14px!important}
+.order-manage-form select:focus-visible,.order-manage-form input:focus-visible{outline:2px solid #367f65;outline-offset:1px}
+.order-save-row button[type=submit]{min-height:46px!important;border-radius:11px!important;background:#204c3d!important;color:#fff!important;border:1px solid #204c3d!important;font-size:13px!important;font-weight:750!important;padding:11px 17px!important}
+.order-save-row button[type=submit]:hover{background:#15372b!important}
+/* Editorial link keeps its contrast in light and night themes. */
+[data-theme=dark] .fh-lookbook a,body.dark .fh-lookbook a{color:#ffe2ba!important;border-color:#ecc79a!important;font-weight:800!important;opacity:1!important}
+[data-theme=dark] .fh-lookbook a:hover,body.dark .fh-lookbook a:hover{color:#fff!important}
+.fh-lookbook a:focus-visible{outline:3px solid #d0a577;outline-offset:5px;border-radius:2px}
+@media(max-width:600px){.fh20-color-picker .fh20-colors-grid{gap:7px}.fh20-color-chip-body{font-size:12px;min-height:44px;padding:9px 10px}.order-manage-form .fh20-paid-confirm{padding:12px!important}}
+
+/* v20.1 home banner polish — cleaner CTA buttons, stronger contrast, better kitchen card readability */
+.fh-cms-banner-grid{
+  gap:24px!important;
+  margin-block:46px!important;
+}
+.fh-cms-promo{
+  min-height:420px!important;
+  border-radius:18px!important;
+  box-shadow:0 24px 60px rgba(39,29,20,.14)!important;
+}
+.fh-cms-promo img{
+  transform:scale(1.01);
+  image-rendering:auto;
+  filter:saturate(1.02) contrast(1.02);
+}
+.fh-cms-promo:hover img{
+  transform:scale(1.04)!important;
+}
+.fh-promo-shade{
+  background:
+    linear-gradient(90deg, rgba(19,18,16,.72) 0%, rgba(19,18,16,.54) 34%, rgba(19,18,16,.24) 62%, rgba(19,18,16,.10) 100%)!important;
+}
+.fh-cms-promo-forest .fh-promo-shade{
+  background:
+    linear-gradient(90deg, rgba(15,15,14,.76) 0%, rgba(15,15,14,.58) 33%, rgba(15,15,14,.26) 60%, rgba(15,15,14,.12) 100%)!important;
+}
+.fh-cms-promo-content{
+  width:min(84%, 520px)!important;
+  padding:32px 32px 30px!important;
+  margin:24px!important;
+  border-radius:22px!important;
+  background:linear-gradient(135deg, rgba(12,12,12,.28), rgba(12,12,12,.14))!important;
+  border:1px solid rgba(255,255,255,.14)!important;
+  box-shadow:0 18px 46px rgba(0,0,0,.18)!important;
+  backdrop-filter:blur(3px);
+}
+.fh-cms-promo small{
+  color:#f0d7b5!important;
+  text-shadow:0 1px 8px rgba(0,0,0,.35);
+}
+.fh-cms-promo h2{
+  color:#fff!important;
+  font-size:clamp(31px,2.55vw,47px)!important;
+  line-height:1.07!important;
+  margin:14px 0 12px!important;
+  text-shadow:0 3px 14px rgba(0,0,0,.34);
+}
+.fh-cms-promo p{
+  color:#fbf6ee!important;
+  font-size:15px!important;
+  line-height:1.62!important;
+  max-width:430px;
+  text-shadow:0 2px 12px rgba(0,0,0,.34);
+}
+.fh-cms-promo .fh-promo-button{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  min-height:52px!important;
+  padding:14px 22px!important;
+  margin-top:18px!important;
+  border-radius:999px!important;
+  border:1px solid rgba(65,49,31,.10)!important;
+  background:linear-gradient(180deg, #fff6eb 0%, #f0e1cf 100%)!important;
+  color:#2d241b!important;
+  font-weight:800!important;
+  letter-spacing:.01em;
+  box-shadow:0 14px 28px rgba(28,23,19,.14)!important;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.fh-cms-promo:hover .fh-promo-button{
+  transform:translateY(-2px);
+  box-shadow:0 18px 34px rgba(28,23,19,.18)!important;
+  background:linear-gradient(180deg, #fff9f1 0%, #eed9c0 100%)!important;
+}
+.fh-cms-promo .fh-promo-button:focus-visible{
+  outline:3px solid rgba(255,223,171,.92)!important;
+  outline-offset:4px;
+}
+/* Improve image framing for the custom kitchen / dining banner */
+.fh-cms-promo-forest img{
+  object-position:center 42%!important;
+}
+@media(max-width:990px){
+  .fh-cms-promo{min-height:360px!important}
+  .fh-cms-promo-content{width:min(92%,520px)!important;margin:18px!important}
+}
+@media(max-width:580px){
+  .fh-cms-promo{min-height:320px!important}
+  .fh-cms-promo-content{padding:24px 22px!important;margin:14px!important;width:calc(100% - 28px)!important}
+  .fh-cms-promo h2{font-size:clamp(29px,8.2vw,37px)!important}
+  .fh-cms-promo p{font-size:14px!important}
+  .fh-cms-promo .fh-promo-button{min-height:48px!important;padding:12px 18px!important}
+}

@@ -1,0 +1,164 @@
+/* Forma Home v18.2 — readable and consistent UI messages.
+   Loaded last to resolve conflicting legacy theme rules. */
+:root {
+  --fh-msg-error-bg: #fff0ef;
+  --fh-msg-error-fg: #822820;
+  --fh-msg-error-border: #dba49d;
+  --fh-msg-ok-bg: #eaf5ef;
+  --fh-msg-ok-fg: #1a5940;
+  --fh-msg-ok-border: #93c0a8;
+  --fh-msg-info-bg: #f2f0eb;
+  --fh-msg-info-fg: #3b423d;
+  --fh-msg-info-border: #d4d4ca;
+  --fh-msg-warning-bg: #fff4dd;
+  --fh-msg-warning-fg: #705018;
+  --fh-msg-warning-border: #e5c782;
+}
+html[data-theme="dark"] {
+  --fh-msg-error-bg: #43282b;
+  --fh-msg-error-fg: #ffe2dc;
+  --fh-msg-error-border: #b57b76;
+  --fh-msg-ok-bg: #203d34;
+  --fh-msg-ok-fg: #d1f9de;
+  --fh-msg-ok-border: #648e75;
+  --fh-msg-info-bg: #29332e;
+  --fh-msg-info-fg: #f2eee5;
+  --fh-msg-info-border: #59665e;
+  --fh-msg-warning-bg: #483824;
+  --fh-msg-warning-fg: #ffe9b9;
+  --fh-msg-warning-border: #947749;
+}
+/* All functional messages must have their own foreground and background.
+   Explicit colors keep old .fh-* and .auth-* theme selectors from making text invisible. */
+#commerceStatus.commerce-status,
+.commerce-status,
+.commerce-notice,
+.commerce-loading,
+.auth-required,
+#contactResult:not(:empty),
+.cms-alert,
+.cms-notice:not(:empty),
+#loginError:not(:empty),
+#newProductStatus:not(:empty),
+.editor-state,
+.extra-error,
+.extra-empty,
+.extra-loading {
+  background:var(--fh-msg-info-bg) !important;
+  color:var(--fh-msg-info-fg) !important;
+  border:1px solid var(--fh-msg-info-border) !important;
+  border-radius:12px !important;
+  padding:14px 17px !important;
+  font-size:13px !important;
+  line-height:1.65 !important;
+  font-weight:500 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  overflow-wrap:anywhere;
+}
+.commerce-status[hidden], #commerceStatus[hidden], .cms-notice:empty,
+#contactResult:empty, #loginError:empty, #newProductStatus:empty {display:none !important}
+#commerceStatus.commerce-error,
+.commerce-error,
+.commerce-status.commerce-error,
+.commerce-notice.commerce-notice-error,
+#contactResult.is-error,
+.cms-alert,
+.cms-notice.err,
+#loginError:not(:empty),
+#newProductStatus.is-error,
+.editor-state.error,
+.extra-error {
+  background:var(--fh-msg-error-bg) !important;
+  color:var(--fh-msg-error-fg) !important;
+  border-color:var(--fh-msg-error-border) !important;
+}
+#contactResult.is-success,
+.cms-notice.is-success,
+#newProductStatus.is-success,
+.editor-state:not(.error) {
+  background:var(--fh-msg-ok-bg) !important;
+  color:var(--fh-msg-ok-fg) !important;
+  border-color:var(--fh-msg-ok-border) !important;
+}
+.commerce-status.is-warning,.fh-message-warning {
+  background:var(--fh-msg-warning-bg) !important;
+  color:var(--fh-msg-warning-fg) !important;
+  border-color:var(--fh-msg-warning-border) !important;
+}
+/* Status boxes used by storefront, checkout, reviews and account areas. */
+#app .notice,
+#app .empty,
+#app .fh-catalog-empty,
+#app .auth-required,
+#app .commerce-loading,
+#app .commerce-notice,
+#app .success,
+#app .instructions {
+  opacity:1!important;
+  text-shadow:none!important;
+}
+#app .notice,
+#app .instructions {
+  background:var(--fh-msg-info-bg)!important;
+  color:var(--fh-msg-info-fg)!important;
+  border:1px solid var(--fh-msg-info-border)!important;
+}
+#app .notice *,#app .instructions * {color:inherit!important}
+/* Don't let a pale inherited text variable erase messages in the night theme. */
+html[data-theme="dark"] #app .commerce-status,
+html[data-theme="dark"] #app .commerce-notice,
+html[data-theme="dark"] #app .auth-required,
+html[data-theme="dark"] #app .commerce-loading,
+html[data-theme="dark"] #app .notice,
+html[data-theme="dark"] #app .instructions,
+html[data-theme="dark"] #app .success {
+  color:var(--fh-msg-info-fg)!important;
+}
+html[data-theme="dark"] #app #commerceStatus.commerce-error,
+html[data-theme="dark"] #app .commerce-notice.commerce-notice-error {
+  background:var(--fh-msg-error-bg)!important;
+  color:var(--fh-msg-error-fg)!important;
+  border-color:var(--fh-msg-error-border)!important;
+}
+html[data-theme="dark"] #app #contactResult.is-error {
+  color:var(--fh-msg-error-fg)!important;
+  background:var(--fh-msg-error-bg)!important;
+  border-color:var(--fh-msg-error-border)!important;
+}
+html[data-theme="dark"] #app #contactResult.is-success {
+  color:var(--fh-msg-ok-fg)!important;
+  background:var(--fh-msg-ok-bg)!important;
+  border-color:var(--fh-msg-ok-border)!important;
+}
+/* Keep body copy within message cards legible even if older styles set opacity. */
+#app .commerce-notice :is(p,small,b,strong,a),
+#app .commerce-status :is(p,small,b,strong,a),
+#app .auth-required :is(p,small,b,strong,a),
+#app .empty :is(h3,p),
+#app .fh-catalog-empty :is(h3,p) {color:inherit!important;opacity:1!important}
+#app .empty .btn,#app .fh-catalog-empty .btn {color:#fff!important}
+html[data-theme="dark"] #app .empty .btn,
+html[data-theme="dark"] #app .fh-catalog-empty .btn {color:#242520!important}
+/* Form controls, placeholders and status toasts in both modes. */
+#app .auth-card :is(input,textarea,select),
+#app .checkout-form :is(input:not([type="radio"]):not([type="checkbox"]),textarea,select),
+#app .custom-order-form :is(input,textarea,select),
+#app #contactForm :is(input:not([type="checkbox"]),textarea,select) {
+  color:var(--fh-ink,var(--ink,#232b27))!important;
+  background:var(--fh-card,var(--panel,#fff))!important;
+}
+#app :is(input,textarea)::placeholder {opacity:1;color:var(--fh-muted,#756e67)}
+html[data-theme="dark"] #app :is(input,textarea)::placeholder {color:#c0b8ab!important;opacity:1}
+#app :is(input,textarea,select):focus-visible {outline:3px solid #b18e63!important;outline-offset:2px}
+#toast.toast {background:#253c36!important;color:#fffaf2!important;border:1px solid #5a766c!important;opacity:1!important;max-width:min(90vw,460px);text-align:center;line-height:1.5}
+html[data-theme="dark"] #toast.toast {background:#e4c39c!important;color:#1e2924!important;border-color:#eccfae!important}
+/* Administrative notifications should stay readable even when legacy css is loaded. */
+.dashboard-body :is(.extra-error,.extra-empty,.extra-loading,.cms-notice,.cms-alert,.editor-state,#status,#newProductStatus) {text-shadow:none!important;opacity:1!important}
+.dashboard-body .cms-notice.err,
+.dashboard-body #newProductStatus.is-error,
+.dashboard-body .editor-state.error {color:var(--fh-msg-error-fg)!important;background:var(--fh-msg-error-bg)!important;border-color:var(--fh-msg-error-border)!important}
+@media(max-width:640px){
+  #commerceStatus.commerce-status,.commerce-notice,.auth-required,
+  #contactResult:not(:empty),#loginError:not(:empty),.cms-alert,.extra-error {padding:13px 14px!important;font-size:13px!important}
+}

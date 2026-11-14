@@ -1,0 +1,172 @@
+/* Forma Home v26 | Immersive product gallery inspired by the supplied reference.
+   The photo itself is unchanged. An enlarged blurred duplicate fills the backdrop.
+   Only product details are affected; catalog cards, checkout and admin are untouched. */
+.product-detail .fh26-gallery {
+  min-width:0!important;
+  width:100%!important;
+  position:relative;
+  background:linear-gradient(155deg,#382b22 0%,#201914 74%,#2b201a 100%);
+  padding:6px 6px 14px!important;
+  border-radius:29px!important;
+  border:1px solid rgba(211,170,131,.22);
+  box-shadow:0 18px 48px rgba(32,20,13,.17);
+  overflow:hidden;
+}
+.product-detail .fh26-gallery .fh26-main-image,
+[data-theme="dark"] .product-detail .fh26-gallery .fh26-main-image {
+  width:100%!important;
+  height:auto!important;
+  min-height:0!important;
+  max-height:none!important;
+  aspect-ratio:744 / 755!important;
+  padding:0!important;
+  margin:0!important;
+  border:1px solid rgba(255,236,217,.20)!important;
+  border-radius:24px!important;
+  background:var(--fh23-edge,#c7b8a8)!important;
+  box-shadow:0 1px 10px rgba(0,0,0,.22)!important;
+  overflow:hidden!important;
+}
+.product-detail .fh26-gallery .fh26-main-image::before {
+  inset:-26px!important;
+  transform:scale(1.09)!important;
+  background-size:cover!important;
+  background-position:center!important;
+  filter:blur(35px) saturate(.83)!important;
+  opacity:.9!important;
+  transition:background-image .18s ease!important;
+}
+.product-detail .fh26-gallery .fh26-main-image::after,
+[data-theme="dark"] .product-detail .fh26-gallery .fh26-main-image::after {
+  background:linear-gradient(135deg,rgba(255,255,255,.05),transparent 48%,rgba(23,20,16,.035))!important;
+}
+.product-detail .fh26-gallery .fh26-main-image>img {
+  display:block!important;
+  width:100%!important;height:100%!important;
+  max-width:none!important;max-height:none!important;
+  position:absolute!important;inset:0!important;
+  object-fit:cover!important;object-position:center center!important;
+  padding:0!important;margin:0!important;
+  border-radius:inherit!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  filter:none!important;opacity:1!important;
+}
+/* Full-area image tap remains a zoom target; floating controls sit above it. */
+.product-detail .fh26-gallery .fh23-photo-tap {inset:0;z-index:3!important}
+.product-detail .fh26-gallery .fh26-floating-btn {
+  appearance:none;
+  position:absolute!important;
+  z-index:5!important;
+  display:grid!important;
+  place-items:center!important;
+  width:48px!important;height:48px!important;
+  min-width:48px!important; min-height:48px!important;
+  padding:0!important;
+  border-radius:50%!important;
+  border:1px solid rgba(81,56,34,.19)!important;
+  background:rgba(252,235,215,.91)!important;
+  color:#33261e!important;
+  box-shadow:0 3px 15px rgba(44,31,21,.16)!important;
+  backdrop-filter:blur(12px);
+  cursor:pointer;
+  transition:transform .18s ease,background .18s ease,box-shadow .18s ease!important;
+}
+.product-detail .fh26-gallery .fh26-floating-btn:hover {
+  transform:scale(1.065)!important;
+  background:#fff4e9!important;
+  box-shadow:0 5px 19px rgba(38,25,15,.27)!important;
+}
+.product-detail .fh26-gallery .fh26-floating-btn:focus-visible {
+  outline:3px solid #e0b387!important;
+  outline-offset:3px!important;
+}
+.product-detail .fh26-gallery .fh26-floating-btn svg {width:24px!important;height:24px!important;flex:none}
+.product-detail .fh26-gallery .fh26-nav {top:50%!important;transform:translateY(-50%)!important}
+.product-detail .fh26-gallery .fh26-nav:hover {transform:translateY(-50%) scale(1.07)!important}
+.product-detail .fh26-gallery .fh26-prev {left:17px!important}
+.product-detail .fh26-gallery .fh26-next {right:17px!important}
+.product-detail .fh26-gallery .fh26-favorite {top:20px!important;right:20px!important}
+.product-detail .fh26-gallery .fh26-favorite.active,
+.product-detail .fh26-panel-fav.active {color:#965833!important}
+.product-detail .fh26-gallery .fh26-favorite.active svg,
+.product-detail .fh26-panel-fav.active svg {fill:#c4876c!important;stroke:#965833!important}
+.product-detail .fh26-gallery .fh26-expand {bottom:18px!important;right:18px!important;width:43px!important;height:43px!important;min-width:43px!important;min-height:43px!important}
+.product-detail .fh26-gallery .fh26-expand svg {width:21px!important;height:21px!important}
+.product-detail .fh26-gallery .fh26-screenreader-counter {
+  position:absolute!important;width:1px!important;height:1px!important;
+  padding:0!important; margin:-1px!important;overflow:hidden!important;
+  clip-path:inset(50%)!important;white-space:nowrap!important;
+}
+.product-detail .fh26-gallery .thumbnails {
+  width:100%!important;
+  display:flex!important;
+  gap:13px!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  padding:18px 15px 4px!important;
+  margin:0!important;
+  overflow-x:auto!important;overflow-y:hidden!important;
+  scroll-snap-type:x proximity!important;
+  scroll-padding-inline:15px;
+  scrollbar-width:thin;
+  scrollbar-color:#a68b75 transparent;
+}
+.product-detail .fh26-gallery .thumb {
+  display:block!important;
+  flex:0 0 clamp(78px,16%,113px)!important;
+  min-width:0!important;
+  max-width:113px!important;
+  width:clamp(78px,16%,113px)!important;
+  height:100px!important;
+  padding:0!important;
+  border:2px solid rgba(232,204,177,.28)!important;
+  border-radius:14px!important;
+  background:#756154!important;
+  overflow:hidden!important;
+  scroll-snap-align:center!important;
+  box-shadow:0 3px 10px rgba(0,0,0,.12)!important;
+  transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease!important;
+}
+.product-detail .fh26-gallery .thumb.active {
+  border:3px solid #eed2ac!important;
+  padding:0!important;
+  box-shadow:0 0 0 2px rgba(235,195,150,.30),0 5px 16px rgba(0,0,0,.24)!important;
+}
+.product-detail .fh26-gallery .thumb:hover {transform:translateY(-3px)!important;border-color:#edcfa7!important}
+.product-detail .fh26-gallery .thumb:focus-visible {outline:3px solid #ead0ad!important;outline-offset:3px!important}
+.product-detail .fh26-gallery .thumb img {
+  width:100%!important;height:100%!important;
+  max-width:none!important;object-fit:cover!important;object-position:center!important;
+  padding:0!important;margin:0!important;
+  border-radius:11px!important;filter:none!important;
+  background:transparent!important;
+}
+.product-detail .fh26-panel-fav svg {width:21px;height:21px}
+@media(max-width:1000px){
+ .product-detail .fh26-gallery {border-radius:22px!important;padding:5px 5px 11px!important}
+ .product-detail .fh26-gallery .fh26-main-image{border-radius:18px!important}
+ .product-detail .fh26-gallery .thumb{height:80px!important;flex-basis:clamp(65px,17%,94px)!important;width:clamp(65px,17%,94px)!important}
+ .product-detail .fh26-gallery .thumbnails{gap:10px!important;padding:13px 11px 3px!important}
+}
+@media(max-width:600px){
+ .product-detail .fh26-gallery {border-radius:20px!important}
+ .product-detail .fh26-gallery .fh26-main-image {
+   height:auto!important;min-height:0!important;aspect-ratio:1 / 1.08!important;
+   border-radius:16px!important;padding:0!important;
+ }
+ .product-detail .fh26-gallery .fh26-floating-btn {
+   width:39px!important;height:39px!important;min-width:39px!important;min-height:39px!important;
+ }
+ .product-detail .fh26-gallery .fh26-floating-btn svg{width:21px!important;height:21px!important}
+ .product-detail .fh26-gallery .fh26-favorite{right:11px!important;top:11px!important}
+ .product-detail .fh26-gallery .fh26-prev{left:9px!important}
+ .product-detail .fh26-gallery .fh26-next{right:9px!important}
+ .product-detail .fh26-gallery .fh26-expand{right:11px!important;bottom:11px!important;width:38px!important;height:38px!important;min-width:38px!important;min-height:38px!important}
+ .product-detail .fh26-gallery .thumbnails{gap:8px!important;padding:12px 9px 1px!important}
+ .product-detail .fh26-gallery .thumb{flex:0 0 63px!important;min-width:63px!important;max-width:63px!important;width:63px!important;height:62px!important;border-radius:10px!important}
+ .product-detail .fh26-gallery .thumb img{border-radius:8px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .product-detail .fh26-gallery *{transition:none!important;scroll-behavior:auto!important}
+}

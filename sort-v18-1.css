@@ -1,0 +1,30 @@
+/* Forma Home v18.1: custom premium sort dropdown, isolated from legacy native <select> rules */
+.fh19-sort{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-left:auto;min-width:0;position:relative;z-index:8}
+.fh19-sort-caption{font-size:12px;font-weight:600;white-space:nowrap;color:var(--fh-muted,#817c76)}
+.fh19-sort-control{position:relative;width:238px;max-width:100%}
+.fh19-sort .fh19-sort-trigger{display:flex!important;align-items:center!important;gap:11px!important;width:100%!important;min-height:49px!important;padding:0 13px!important;border:1px solid var(--fh-stroke,#e6e0d7)!important;border-radius:12px!important;background:var(--fh-card,#fff)!important;color:var(--fh-ink,#242928)!important;box-shadow:0 2px 7px rgba(32,29,23,.035)!important;line-height:1.3!important;font:650 13px/1.3 'Segoe UI',Arial,sans-serif!important;text-align:left;cursor:pointer;transition:background .18s,border-color .18s,box-shadow .18s}
+.fh19-sort .fh19-sort-trigger:hover{border-color:#bc986d!important;background:var(--fh-soft,#f8f5f0)!important}
+.fh19-sort .fh19-sort-trigger:focus-visible{outline:3px solid #bc986d!important;outline-offset:2px!important}
+.fh19-sort .fh19-sort-trigger[aria-expanded="true"]{border-color:#b78b62!important;box-shadow:0 0 0 3px rgba(176,128,79,.15)!important}
+.fh19-sort-icon{flex:0 0 18px;color:#aa845f}
+.fh19-sort-selected{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fh19-sort-chevron{flex:0 0 18px;color:var(--fh-muted,#817c76);transition:transform .18s}
+.fh19-sort-trigger[aria-expanded="true"] .fh19-sort-chevron{transform:rotate(180deg)}
+.fh19-sort-menu[hidden]{display:none!important}
+.fh19-sort-menu{position:absolute;right:0;top:calc(100% + 8px);width:max(100%,260px);max-width:min(320px,calc(100vw - 24px));padding:7px;background:var(--fh-card,#fff);border:1px solid var(--fh-stroke,#e6e0d7);border-radius:14px;box-shadow:0 18px 44px rgba(31,26,20,.18);z-index:100;display:grid;gap:3px;overflow:hidden}
+.fh19-sort .fh19-sort-option{width:100%!important;min-height:42px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;letter-spacing:0!important;line-height:1.3!important;text-align:left!important;border:0!important;border-radius:9px!important;padding:10px 12px!important;background:transparent!important;color:var(--fh-ink,#242928)!important;font:550 13px/1.3 'Segoe UI',Arial,sans-serif!important;cursor:pointer!important}
+.fh19-sort .fh19-sort-option svg{opacity:0;flex:0 0 17px;color:#ad865f}
+.fh19-sort .fh19-sort-option.active{background:var(--fh-soft,#f3eee7)!important;color:var(--fh-ink,#242928)!important;font-weight:750!important}
+.fh19-sort .fh19-sort-option.active svg{opacity:1}
+.fh19-sort .fh19-sort-option:hover,.fh19-sort .fh19-sort-option:focus-visible{background:var(--fh-soft,#f3eee7)!important;outline:none!important}
+.fh19-sort .fh19-sort-option:focus-visible{box-shadow:inset 0 0 0 2px #b78b62!important}
+[data-theme="dark"] .fh19-sort-caption{color:#c1bbb1!important}
+[data-theme="dark"] .fh19-sort .fh19-sort-trigger{background:#292e2b!important;color:#f5eee5!important;border-color:#535850!important}
+[data-theme="dark"] .fh19-sort .fh19-sort-trigger:hover{background:#383f39!important;border-color:#d0ad81!important}
+[data-theme="dark"] .fh19-sort-menu{background:#272d29!important;border-color:#535850!important;box-shadow:0 18px 44px rgba(0,0,0,.48)!important}
+[data-theme="dark"] .fh19-sort .fh19-sort-option{color:#f2eade!important}
+[data-theme="dark"] .fh19-sort .fh19-sort-option.active,[data-theme="dark"] .fh19-sort .fh19-sort-option:hover,[data-theme="dark"] .fh19-sort .fh19-sort-option:focus-visible{background:#3c423d!important;color:#f7efe2!important}
+@keyframes fh19SortOpen{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:620px){.catalog-tools{gap:12px!important;align-items:center!important}.fh19-sort{gap:7px}.fh19-sort-caption{font-size:11px}.fh19-sort-control{width:min(190px,50vw)}.fh19-sort .fh19-sort-trigger{min-height:45px!important;padding:0 9px!important;gap:7px!important;font-size:12px!important}.fh19-sort-menu{width:max(100%,235px)}}
+@media(max-width:410px){.catalog-tools{flex-wrap:wrap}.fh19-sort{width:100%;justify-content:space-between;margin-left:0}.fh19-sort-control{width:min(238px,65vw)}}
+@media(prefers-reduced-motion:reduce){.fh19-sort-menu{animation:none}.fh19-sort-chevron{transition:none}}

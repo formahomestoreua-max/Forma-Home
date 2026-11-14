@@ -1,0 +1,37 @@
+/* Forma Home v22 — cohesive merchandising, product media and form feedback */
+/* The photo itself stays sharp. Only an enlarged duplicate behind it is blurred. */
+.product-photo,.detail-main-img{position:relative;isolation:isolate;overflow:hidden;background:#e8e5df!important}
+.product-photo::before,.detail-main-img::before{content:"";position:absolute;z-index:0;inset:-26px;background-image:var(--fh-photo);background-position:center;background-size:cover;filter:blur(27px) saturate(.65);opacity:.40;transform:scale(1.08);pointer-events:none}
+.product-photo::after,.detail-main-img::after{content:"";position:absolute;z-index:0;inset:0;background:rgba(235,232,225,.18);pointer-events:none}
+.product-photo>img,.detail-main-img>img{position:relative!important;z-index:1!important;object-fit:contain!important;filter:none!important;opacity:1!important;mix-blend-mode:normal!important}
+.product-photo .product-badges{z-index:3!important;position:absolute}
+.detail-main-img img{padding:12px;box-sizing:border-box}
+.product-photo>img{padding:5px;box-sizing:border-box}
+.thumbnails .thumb{background:#eae8e3!important}
+.thumbnails img{object-fit:contain!important;filter:none!important;opacity:1!important}
+[data-theme=dark] .product-photo,[data-theme=dark] .detail-main-img,body.dark .product-photo,body.dark .detail-main-img{background:#363833!important}
+[data-theme=dark] .product-photo::after,[data-theme=dark] .detail-main-img::after,body.dark .product-photo::after,body.dark .detail-main-img::after{background:rgba(32,35,33,.10)}
+/* Cards and promotional banners share the same warm editorial feel */
+.fh-category-tiles,.fh-collection-row{scroll-padding:16px}
+.fh-category-tile,.fh-collection-tile{border-radius:17px!important;overflow:hidden}
+.fh-category-tile img,.fh-collection-tile img{image-rendering:auto!important;object-fit:cover!important}
+.fh-category-2 img{object-position:51% 49%!important}
+.fh-cms-promo img{object-fit:cover!important;object-position:50% 52%!important}
+.fh-cms-promo-forest img{object-position:center 55%!important}
+.fh-cms-promo .fh-promo-shade{background:linear-gradient(90deg,rgba(18,21,17,.81),rgba(18,21,17,.45) 56%,rgba(18,21,17,.05))!important}
+.fh-cms-promo-content{backdrop-filter:blur(6px) saturate(1.05)!important;-webkit-backdrop-filter:blur(6px) saturate(1.05)!important;max-width:560px!important;background:linear-gradient(125deg,rgba(22,25,22,.52),rgba(24,25,23,.29))!important;border:1px solid rgba(255,255,255,.20)!important}
+.fh-cms-promo .fh-promo-button{border-radius:13px!important;background:#f7efe4!important;box-shadow:0 9px 20px #0003!important}
+.fh-cms-promo:hover .fh-promo-button{background:#fff8ed!important}
+.fh-collection-tile em{font-style:normal;line-height:1.47!important;text-wrap:pretty;display:-webkit-box!important;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.fh-collection-tile span{background:linear-gradient(0deg,rgba(5,12,8,.77) 0%,rgba(5,12,8,.26) 70%,transparent 100%)!important}
+.fh-collection-tile strong{display:inline-flex!important;min-height:30px;align-items:center}
+/* Contextual feedback, no invasive pop-up needed */
+.fh22-field-hint{display:block;margin:6px 0 2px;font-size:11px;line-height:1.5;font-weight:500;color:#7d897c}
+.fh22-validation{display:block;color:#b45445;font-size:12px;line-height:1.5;margin:5px 0 0}
+.auth-card input[aria-invalid="true"],.checkout-form input[aria-invalid="true"],.custom-order-form input[aria-invalid="true"]{outline:2px solid #b85145!important;border-color:#b85145!important}
+.auth-card input:focus-visible,.checkout-form input:focus-visible{outline:2px solid #d9ad75;outline-offset:1px}
+.commerce-status.commerce-error{padding:12px 15px;border-radius:10px;background:#fff0ed;color:#90372d;border:1px solid #eac3bb;line-height:1.55}
+[data-theme=dark] .fh22-field-hint,body.dark .fh22-field-hint{color:#b9c2b7}
+[data-theme=dark] .commerce-status.commerce-error,body.dark .commerce-status.commerce-error{background:#4a2928;color:#ffdfd7;border-color:#98665d}
+@media(max-width:780px){.fh-cms-promo-content{max-width:calc(100% - 25px)!important}.detail-main-img img{padding:6px}.fh-category-2 img{object-position:center}}
+@media(prefers-reduced-motion:reduce){.fh-cms-promo img{transition:none!important}}

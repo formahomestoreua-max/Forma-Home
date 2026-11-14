@@ -1,0 +1,44 @@
+/* Forma Home 8 · high-contrast administrator and creation flow */
+:root{--formablue:#173a48;--formaaccent:#b89060;}
+.admin-sidebar{background:#163743;color:#f6fbfa}
+.admin-sidebar .side-link{color:#f2f7f7!important;background:transparent;border:1px solid transparent;opacity:1!important;font-weight:650;font-size:14px;line-height:1.4;min-height:50px}
+.admin-sidebar .side-link:hover{background:#285665!important;color:white!important}
+.admin-sidebar .side-link.active{background:#376b7b!important;color:white!important;border-color:#69adbc}
+.admin-sidebar .side-link.muted-item{opacity:.78!important;color:#e0edee!important}
+.admin-sidebar .side-caption,.admin-sidebar .side-home,.admin-sidebar .security-pill{color:#d4edf1!important}
+.dashboard-main{color:#17313b}
+.editor-pane,.products-side,.stat,.editor-heading,.admin-top{color:#1b3743}
+#editor label, #editor .fields label>span{color:#1e3441;font-weight:600}
+#editor input, #editor textarea{color:#1c3440;background:#fff;border-color:#cbd8db}
+#editor input:focus-visible,#editor textarea:focus-visible,.product-dialog :focus-visible{outline:3px solid #438cb299;outline-offset:1px}
+.form-flags{display:flex;flex-wrap:wrap;gap:14px}
+.form-flags label{display:flex;align-items:center;gap:9px;font-size:14px;color:#244551;padding:10px 14px;border:1px solid #d8e3e4;border-radius:12px;background:#f6faf9}
+.promotion-hint{background:#edf5f0;border-left:3px solid #b89060;border-radius:9px;padding:13px 15px;color:#30505b;font-size:13px;line-height:1.6;margin:12px 0 20px}
+.product-row small{display:block;line-height:1.55;color:#446573}
+.create-product{background:#c3a173!important;color:#142e38!important;border-radius:13px!important;border:0!important;min-height:48px;font-weight:750!important;letter-spacing:.01em}
+.create-product:hover{background:#d7b383!important}
+#status.error{color:#8c3030!important}
+/* Add-product workflow, including image picker */
+.product-dialog{width:min(790px,calc(100vw - 26px));max-height:min(92vh,1050px);border:1px solid #d3e1e2;border-radius:22px;padding:0;background:white;color:#203b45;box-shadow:0 30px 95px #061e2a55;overflow:auto}
+.product-dialog::backdrop{background:rgba(8,29,37,.65);backdrop-filter:blur(5px)}
+.new-product-form{padding:clamp(19px,3vw,36px)}
+.dialog-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;border-bottom:1px solid #e2ebeb;padding-bottom:22px;margin-bottom:22px}
+.dialog-top h2{margin:5px 0 7px;font-size:clamp(24px,3vw,35px);letter-spacing:-.05em}
+.dialog-top p{color:#637d84;font-size:14px;max-width:500px;line-height:1.5}
+.dialog-close{border:1px solid #d7e2e4;background:#f4f8f8;font-size:26px;line-height:1;border-radius:12px;width:44px;height:44px;color:#2a4a54;cursor:pointer}
+.dialog-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.dialog-fields label{display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:720;color:#2b4853}
+.dialog-fields input,.dialog-fields select{min-width:0;width:100%;padding:13px 14px;min-height:47px;font-size:15px;border:1px solid #cbdadf;border-radius:11px;background:white;color:#182e3a;box-sizing:border-box}
+.dialog-fields input[type=file]{font-size:12px;min-height:47px;padding:12px}
+.dialog-fields small{font-size:11px;font-weight:400;color:#63757e;line-height:1.5}
+.dialog-options{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}
+.dialog-options label{display:flex;align-items:center;gap:7px;padding:10px 12px;background:#edf5f5;border-radius:10px;color:#234252;font-weight:650;font-size:13px}
+.dialog-options input{width:17px;height:17px;accent-color:#21536a}
+#newProductStatus{min-height:20px;font-size:13px;color:#9c493c;margin:12px 0}
+.dialog-bottom{display:flex;gap:12px;justify-content:flex-end;align-items:center;padding-top:14px;border-top:1px solid #e2ebeb}
+.dialog-bottom button{min-height:46px;padding:10px 20px;border-radius:10px;cursor:pointer;font-weight:700}
+.dialog-bottom .cancel-btn{background:white;color:#2a4654;border:1px solid #cbdadd}
+.dialog-bottom .primary{background:#173a48;color:white;border:0}
+@media(max-width:660px){.dialog-fields{grid-template-columns:1fr}.dialog-bottom{flex-direction:column}.dialog-bottom button{width:100%}}
+
+#createNewCategory[hidden]{display:none!important}#createNewCategory{margin-top:9px}.mega-custom-call{display:flex;gap:12px}

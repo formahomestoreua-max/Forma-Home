@@ -1,0 +1,31 @@
+/* Forma Home 10 — legible premium administrative interface */
+:root{--ink:#292c2a;--muted:#767670;--teal:#42382f;--line:#e3dfd7;--soft:#f7f3ee;--page:#f7f6f2;--white:#fff;--accent:#b28c65}
+body.dashboard-body{background:#f7f6f2;color:#282c2a}
+.admin-layout{grid-template-columns:240px minmax(0,1fr)}
+.admin-sidebar{background:#252a29;color:#f4e8d9;padding:27px 17px}
+.admin-sidebar .admin-brand,.auth-aside .admin-brand{margin:7px 7px 28px;display:block;width:195px;max-width:100%}
+.fh-admin-logo{width:100%;max-height:80px;height:auto;object-fit:contain;display:block;object-position:left center}
+.side-caption{color:#bcab97}.side-link{color:#e6e1db;border-radius:5px!important;margin-bottom:2px;min-height:48px}.side-link.active{background:#67513e;color:#fff}.side-link:hover{background:#363b39;color:white}.side-link.muted-item{color:#b5a89a}.side-home{color:#f3e8d8}.logout{border-color:#6c716b;color:#f5ede3;border-radius:5px}
+.admin-top{background:#fffdfb;border-color:#e5dfd8}.admin-top b{color:#302a25}.admin-user{background:#f0e9df;color:#5e4b39}.admin-user i{color:#7ba883}
+.admin-content{max-width:none;padding:clamp(22px,3vw,50px)}
+.admin-title h1,.extra-header h1{font-family:Georgia,serif;font-weight:400;letter-spacing:-.045em;color:#292c2a;font-size:clamp(35px,3vw,49px)}
+.admin-title p,.extra-header p{color:#716c65}.eyebrow{color:#9a7551!important}
+.stat,.products-side,.editor-pane,.extra-record,.extra-empty{border-radius:6px!important;border-color:#e2ded6!important;box-shadow:0 7px 20px rgba(45,40,30,.025)!important;background:#fff!important}
+.stat small{color:#92775e!important}.stat b{color:#2b2d2a}.stat span{color:#7a7872}
+.workspaces{grid-template-columns:minmax(265px,320px) minmax(0,1fr);gap:18px}
+.products-side{min-width:0}.panel-heading h2,.editor-heading h2{color:#252b29}
+.list-search{background:#fbfaf8;border-color:#e2ded7}.list-search input{color:#292c2a}.product-row.selected{background:#f3ebe1;border-color:#d8bf9f}.product-row:hover{background:#f7f2ec}.product-row b{color:#30302e}.product-row small{color:#7d7770}.editor-heading{background:#fffdfb}
+#editForm{background:#fff}.fields label span,.form-flags{color:#4d4b46}.fields input,.fields textarea,.fields select{background:#fff;border:1px solid #d9d5cd;color:#202624;border-radius:5px!important;min-height:47px}.fields input:focus,.fields textarea:focus{border-color:#b4916c;outline:2px solid #c4a37d44}.upload-btn{background:#f7f2ea;border:1px solid #ddd0c1;border-radius:5px;color:#5c422e}.upload-btn:hover{background:#f0e6d9}.append-photo{background:#faf5ee;border-color:#d4b99a;border-radius:5px}.append-photo-label,.primary{background:#4c382b!important;color:#fff!important;border-radius:5px!important}.primary:hover,.append-photo-label:hover{background:#79563e!important}.create-product{border-radius:5px!important;background:#4c382b!important;color:#fff!important}
+.editor-state{color:#387454!important}.editor-state.error{color:#b54c3a!important}.photo-preview{border-color:#e1dbd2;background:#f5f1eb;border-radius:5px}.photo-preview img{object-fit:cover}
+.admin-layout button:not(.primary):focus-visible,.admin-layout a:focus-visible{outline-color:#c1a078}
+#adminExtra .extra-record p,#adminExtra .extra-record h3,#adminExtra .extra-record strong,#adminExtra .extra-header h1{color:#2b2c29!important}
+#adminExtra .extra-record small,#adminExtra .extra-record span,#adminExtra .extra-header p{color:#6e6f69!important}
+.dialog-top h2{font-family:Georgia,serif}.product-dialog{border-radius:9px!important;border:1px solid #e1d8ce}.product-dialog input,.product-dialog select,.product-dialog textarea{color:#292a28!important;border:1px solid #d8d3ca!important;background:#fff!important}
+.auth-aside{background:linear-gradient(130deg,#272a29,#5d4636)!important}.auth-aside h1 em{color:#dfb98e}.auth-aside .eyebrow{color:#e0bc8f!important}.auth-panel{background:#fbf9f5}.auth-panel h2{color:#292c2a}.auth-panel input{border-radius:5px;background:#fff}.auth-body{background:#f8f5f0}
+@media(max-width:1100px){.admin-layout{grid-template-columns:215px minmax(0,1fr)}.workspaces{grid-template-columns:260px 1fr}.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.admin-layout{grid-template-columns:1fr}.admin-sidebar{height:auto;position:static;flex-direction:row;align-items:center;justify-content:space-between}.admin-sidebar .admin-brand{width:155px;margin:0}.workspaces{grid-template-columns:1fr}.list-scroll{height:270px}}
+@media(max-width:530px){.admin-content{padding:16px}.stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.admin-sidebar .admin-brand{width:130px}.admin-top{font-size:11px}.fields{grid-template-columns:1fr}}
+/* Strong active navigation and improved contrast even when older styles use !important. */
+.admin-sidebar .side-link.active{background:#75533c!important;color:#fff!important;border-color:#75533c!important}
+.admin-sidebar .side-link:not(.active){background:transparent!important;color:#e8e3dc!important}
+.admin-sidebar .side-link:not(.active):hover{background:#3b4140!important}
